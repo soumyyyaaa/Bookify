@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+.container1-home {
+    background-image: url("../../public/Images/home-bg-img.png");
+    background-size: cover;
+}
+
+.text-container-home {
+    padding: 15% 7%;
+    text-align: left;
+    width: 55%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading-home {
+    color: #d14031;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.shop-now {
+    border: none;
+    background-color: #d14031;
+    padding: 2% 5%;
+    color: #fff;
+}
+
+.shop-now:hover {
+    background-color: #000;
+    transition: .4s;
+}

@@ -11,7 +11,7 @@ function Header() {
         <FontAwesomeIcon icon={faCartShopping} size="lg" style={{marginRight:15}} className="icons-header" />
         <FontAwesomeIcon icon={faHeart} size="lg" className="icons-header" />
       </span>
-      <h1 style={{color: '#343434'}}>BOOK <span style={{color: '#e12503'}}>SHOP</span></h1>
+      <h1 style={{color: '#343434'}}>BOOK <span style={{color: '#d14031'}}>SHOP</span></h1>
       <FontAwesomeIcon icon={faUser} size="lg" className="icons-header" />
     </div>
   );
