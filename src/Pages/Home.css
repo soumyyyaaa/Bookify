@@ -31,3 +31,11 @@
     background-color: #000;
     transition: .4s;
 }
+
+.container2-home {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    padding: 4% 4% 4% 6%;
+    background-color: #f7f7f7;
+    grid-gap: 15%;
+}
