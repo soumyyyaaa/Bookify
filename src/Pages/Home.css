@@ -39,3 +39,34 @@
     background-color: #f7f7f7;
     grid-gap: 15%;
 }
+
+.container3-home {
+    padding: 5% 7%;
+}
+
+.heading-new-arrivals {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.line-home {
+    width: 8%;
+    text-align: center;
+    border: 3px solid #d14031;
+    margin: 2% auto;
+    opacity: 1;
+}
+
+.new-arrivals {
+    width: 13%;
+    padding: 1% 3%;
+    margin: 2%;
+    border: none;
+    background-color: #d14031;
+    color: #fff;
+}
+
+.new-arrivals:hover {
+    background-color: #000;
+    transition: 0.4s;
+}

@@ -19,24 +19,33 @@ function Home() {
         <span>
           <FontAwesomeIcon icon={faTruckFast} size="2xl" />
           <span style={{float: 'right', textAlign: 'left'}}>
-            <h5>FREE SHIPPING</h5>
+            <h6>FREE SHIPPING</h6>
             <p style={{color: '#707070'}}>Order over $100</p>
           </span>
         </span>
         <span>
           <FontAwesomeIcon icon={faLock} size="2xl" style={{alignItems: 'center'}} />
           <span style={{float: 'right', textAlign: 'left'}}>
-            <h5>SECURE PAYMENT</h5>
+            <h6>SECURE PAYMENT</h6>
             <p style={{color: '#707070'}}>100% Secure Payment</p>
           </span>
         </span>
         <span>
           <FontAwesomeIcon icon={faTag} flip="horizontal" size="2xl" />
           <span style={{float: 'right', textAlign: 'left'}}>
-            <h5>BEST PRICE</h5>
+            <h6>BEST PRICE</h6>
             <p style={{color: '#707070'}}>Guaranteed Price</p>
           </span>
         </span>
+      </div>
+      <div className="container3-home">
+        <h2 className="heading-new-arrivals">NEW ARRIVALS</h2>
+        <hr className="line-home" />
+        <button className="new-arrivals">All</button>
+        <button className="new-arrivals">Cook Book</button>
+        <button className="new-arrivals">History</button>
+        <button className="new-arrivals">Fantasy</button>
+        <button className="new-arrivals">Romance</button>
       </div>
     </div>
   );
