@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 
 .container1-home {
-    background-image: url("../../public/Images/home-bg-img.png");
+    background-image: url("../Images/home-bg-img.png");
     background-size: cover;
 }
 
@@ -63,9 +63,32 @@
     margin: 2%;
     border: none;
     box-shadow: #00000030 0 10px 20px, #0000003b 0 6px 6px;
+    font-weight: 600;
 }
 
 .new-arrivals:hover {
     background-color: #d14031;
     color: #fff;
+}
+
+.container4-home {
+    padding: 1% 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2%;
+}
+
+.card {
+    border: none;
+    text-align: left;
+}
+
+.card-title {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.card-body {
+    color: #707070;
 }
