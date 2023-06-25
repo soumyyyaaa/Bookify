@@ -2,8 +2,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTruckFast } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "../Pages/Home.css";
 import Container4Home from "../Components/Container4Home";
+import allBook1 from "../Images/all-book-1.png";
+import allBook2 from "../Images/all-book-2.png";
+import allBook3 from "../Images/all-book-3.png";
+import allBook4 from "../Images/all-book-4.png";
+import dwayne from "../Images/dwayne.png";
+import award1 from "../Images/award-1.png";
+import award2 from "../Images/award-2.png";
+import award3 from "../Images/award-3.png";
+import award4 from "../Images/award-4.png";
+import award5 from "../Images/award-5.png";
 
 function Home() {
   return (
@@ -59,14 +70,52 @@ function Home() {
       </div>
       <Container4Home />
       <div className="container5-home">
-        <h3 style={{color: '#000'}}>Shop wide range of collections</h3>
+        <h3 style={{ color: "#000" }}>Shop wide range of collections</h3>
         <h1 className="heading-home">BOOK FESTIVAL</h1>
-        <h5 style={{color: '#000'}}>ALL BOOKS ARE FLAT <strong>50% OFF</strong></h5>
-        <button className="shop-now" style={{marginTop: '3%', padding: '1% 3%'}}>Shop Now</button>
+        <h5 style={{ color: "#000" }}>
+          ALL BOOKS ARE FLAT <strong>50% OFF</strong>
+        </h5>
+        <button
+          className="shop-now"
+          style={{ marginTop: "3%", padding: "1% 3%" }}
+        >
+          Shop Now
+        </button>
       </div>
       <div className="container6-home">
         <h2 className="heading-new-arrivals">BEST AUTHOR OF THE WEEK</h2>
         <hr className="line-home" />
+        <div className="best-author">
+          <img src={dwayne} alt="dawyne" style={{float: 'left'}} />
+          <div style={{textAlign: 'left', width: '40%'}}>
+            <h3 className="card-title">Dwayne Johnson</h3>
+            <p>"Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit."</p>
+            <h4 className="card-title">
+              My Awards
+            </h4>
+            <div>
+              <img src={award1} alt="award-1" style={{marginRight: '3%'}} />
+              <img src={award2} alt="award-2" style={{marginRight: '3%'}} />
+              <img src={award3} alt="award-3" />
+            </div>
+            <div>
+              <img src={award4} alt="award-4" style={{marginRight: '3%'}} />
+              <img src={award5} alt="award-5" style={{marginRight: '3%'}} />
+              <img src={award5} alt="award-5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container7-home">
+        <div style={{width: '50%', textAlign: 'left', marginLeft: '40%'}}>
+          <h3 style={{ color: '#676767', fontWeight: 600, fontSize: "2rem" }}>
+                Special Offers</h3>
+          <h1 className="heading-home">30% Discount On Books Learn Language</h1>
+          <p style={{color: '#676767'}}>
+          Online shopping for Language Learning & Teaching from a great selection at Books ... Language, Linguistics & Writing ... vashista 360 spoken english book.
+          </p>
+          <button className="container7-shop-now">Shop Now</button>
+        </div>
       </div>
     </div>
   );
