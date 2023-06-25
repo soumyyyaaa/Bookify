@@ -84,19 +84,19 @@ function Home() {
         <div className="best-author">
           <img src={dwayne} alt="dawyne" style={{float: 'left'}} />
           <div style={{textAlign: 'left', width: '40%'}}>
-            <h3 className="card-title">Dwayne Johnson</h3>
-            <p>"Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit."</p>
-            <h4 className="card-title">
+            <h3 className="card-title" style={{marginBottom:'3%'}}>Dwayne Johnson</h3>
+            <p style={{marginBottom:'5%'}}>"Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit."</p>
+            <h4 className="card-title" style={{marginBottom:'3%'}}>
               My Awards
             </h4>
-            <div>
-              <img src={award1} alt="award-1" style={{marginRight: '3%'}} />
-              <img src={award2} alt="award-2" style={{marginRight: '3%'}} />
+            <div style={{marginBottom:'3%'}}>
+              <img src={award1} alt="award-1" style={{marginRight: '4%'}} />
+              <img src={award2} alt="award-2" style={{marginRight: '4%'}} />
               <img src={award3} alt="award-3" />
             </div>
             <div>
-              <img src={award4} alt="award-4" style={{marginRight: '3%'}} />
-              <img src={award5} alt="award-5" style={{marginRight: '3%'}} />
+              <img src={award4} alt="award-4" style={{marginRight: '4%'}} />
+              <img src={award5} alt="award-5" style={{marginRight: '4%'}} />
               <img src={award5} alt="award-5" />
             </div>
           </div>
