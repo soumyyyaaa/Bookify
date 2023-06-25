@@ -80,7 +80,7 @@
 }
 
 .container6-home {
-    padding: 6% 4%;
+    padding: 5% 4%;
 }
 
 .best-author {
@@ -107,4 +107,21 @@
 .container7-shop-now:hover {
     background-color: #d14031;
     transition: .4s;
+}
+
+.container9-home {
+    background-image: url("../Images/home-bg-img4.png");
+    padding: 12% 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading-wonderful {
+    color: #134683;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container10-home {
+    padding: 5% 4%;
 }

@@ -2,19 +2,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTruckFast } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "../Pages/Home.css";
 import Container4Home from "../Components/Container4Home";
-import allBook1 from "../Images/all-book-1.png";
-import allBook2 from "../Images/all-book-2.png";
-import allBook3 from "../Images/all-book-3.png";
-import allBook4 from "../Images/all-book-4.png";
 import dwayne from "../Images/dwayne.png";
 import award1 from "../Images/award-1.png";
 import award2 from "../Images/award-2.png";
 import award3 from "../Images/award-3.png";
 import award4 from "../Images/award-4.png";
 import award5 from "../Images/award-5.png";
+import Container8Home from "../Components/Container8Home";
 
 function Home() {
   return (
@@ -116,6 +112,18 @@ function Home() {
           </p>
           <button className="container7-shop-now">Shop Now</button>
         </div>
+      </div>
+      <h2 className="heading-new-arrivals" style={{marginTop: '5%'}}>DAILY DEALS</h2>
+      <hr className="line-home" />
+      <Container8Home />
+      <div className="container9-home">
+        <h1 className="heading-home" style={{color: '#134683'}}>Wonderful Gifts</h1>
+        <h5 style={{color: '#676767'}}>Give your family and friends a book</h5>
+        <button className="shop-now" style={{ marginTop: "3%", padding: "1% 3%" }}>Shop Now</button>
+      </div>
+      <div className="container10-home">
+        <h2 className="heading-new-arrivals">LATEST NEWS</h2>
+        <hr className="line-home" />
       </div>
     </div>
   );

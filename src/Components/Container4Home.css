@@ -35,3 +35,10 @@
 .card:hover .card-title {
     color: #d14031;
 }
+
+.container8-home {
+    padding: 3% 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2%;
+}
