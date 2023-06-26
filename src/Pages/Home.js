@@ -16,6 +16,7 @@ import Container8Home from "../Components/Container8Home";
 import latestNews1 from "../Images/latest-news-img1.png";
 import latestNews2 from "../Images/latest-news-img2.png";
 import latestNews3 from "../Images/latest-news-img3.png";
+import Container11Home from "../Components/Container11Home";
 
 function Home() {
   return (
@@ -216,6 +217,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Container11Home />
     </div>
   );
 }
