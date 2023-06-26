@@ -1,0 +1,21 @@
+.container10-home {
+    padding: 5% 4%;
+}
+
+.latest-news {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.latest-news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.latest-news-content:hover .card-title {
+    color: #d14031;
+}

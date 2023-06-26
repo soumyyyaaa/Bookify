@@ -2,20 +2,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTruckFast } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
-import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
-import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import "../Pages/Home.css";
-import Container4Home from "../Components/Container4Home";
 import dwayne from "../Images/dwayne.png";
 import award1 from "../Images/award-1.png";
 import award2 from "../Images/award-2.png";
 import award3 from "../Images/award-3.png";
 import award4 from "../Images/award-4.png";
 import award5 from "../Images/award-5.png";
+import Container4Home from "../Components/Container4Home";
 import Container8Home from "../Components/Container8Home";
-import latestNews1 from "../Images/latest-news-img1.png";
-import latestNews2 from "../Images/latest-news-img2.png";
-import latestNews3 from "../Images/latest-news-img3.png";
+import Container10Home from "../Components/Container10Home";
 import Container11Home from "../Components/Container11Home";
 
 function Home() {
@@ -146,77 +142,7 @@ function Home() {
           Shop Now
         </button>
       </div>
-      <div className="container10-home">
-        <h2 className="heading-new-arrivals">LATEST NEWS</h2>
-        <hr className="line-home" />
-        <div className="latest-news">
-          <div className="latest-news-content">
-            <img
-              src={latestNews1}
-              alt="latest news 1"
-              style={{ width: "97.5%" }}
-            />
-            <p style={{ margin: "3% 0" }}>
-              <FontAwesomeIcon icon={faCircleUser} /> Ramamoorthi M |{" "}
-              <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
-            </p>
-            <h2 className="card-title">Books changed my ideology</h2>
-            <p style={{ color: "#676767", margin: "3% 0" }}>
-              In this turbulent world, it can be lovely to use books as an
-              escape, to read about a different world with different problems,
-              and maybe forget about your own for a while. But, it's also
-              equally cathartic and important to read books that reflect our own
-              realities—books that take what we're going through, what we're
-              feeling, and put them down on a page so we can see ourselves
-              mirrored.
-            </p>
-            <button className="shop-now">Read More</button>
-          </div>
-          <div className="latest-news-content">
-            <img
-              src={latestNews2}
-              alt="latest news 2"
-              style={{ width: "100%" }}
-            />
-            <p style={{ margin: "3% 0" }}>
-              <FontAwesomeIcon icon={faCircleUser} /> Ramamoorthi M |{" "}
-              <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
-            </p>
-            <h2 className="card-title">Best writers of 19th century</h2>
-            <p style={{ color: "#676767", margin: "3% 0" }}>
-              The first half of the 19th century was characterized by
-              Romanticism, a literary, artistic, and intellectual movement
-              focused on emotional expression. As scientific inquiry and
-              industry became more prevalent, Romantic writers stepped away from
-              urban life. They wrote heavily on nature, individualism, and the
-              idea of the ''common man''—the working class person reflective of
-              everyday society.
-            </p>
-            <button className="shop-now">Read More</button>
-          </div>
-          <div className="latest-news-content">
-            <img
-              src={latestNews3}
-              alt="latest news 3"
-              style={{ width: "100%" }}
-            />
-            <p style={{ margin: "3% 0" }}>
-              <FontAwesomeIcon icon={faCircleUser} /> Ramamoorthi M |{" "}
-              <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
-            </p>
-            <h2 className="card-title">100 Best kids story books</h2>
-            <p style={{ color: "#676767", margin: "3% 0" }}>
-              We're living in a golden age of young-adult literature, when books
-              ostensibly written for teens are equally adored by readers of
-              every generation. In the likes of Harry Potter and Katniss
-              Everdeen, they've produced characters and conceits that have
-              become the currency of our pop-culture discourse—and inspired some
-              of our best writers to contribute to the genre.
-            </p>
-            <button className="shop-now">Read More</button>
-          </div>
-        </div>
-      </div>
+      <Container10Home />
       <Container11Home />
     </div>
   );
