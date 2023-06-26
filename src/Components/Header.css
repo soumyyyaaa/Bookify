@@ -16,5 +16,5 @@
     color: #d14031;
     -webkit-background-clip: text;
           background-clip: text;
-    transition: .4s;
+    transition: all .3s linear;
 }

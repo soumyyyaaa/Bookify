@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+.footer-container {
+    padding: 5% 2% 2% 2%;
+    background-color: #242424;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.heading-footer {
+    color: #d14031;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+    margin-bottom: 7%;
+    font-weight: 700;
+}
+
+.footer-sub-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.7rem;
+    margin-bottom: 10%;
+}
+
+.footer-email {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-email:hover {
+    color: #d14031;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.footer-search-panel {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+.footer-search-panel li {
+    margin: 3% auto;
+}
+
+.footer-search-panel li:hover {
+    color: #d14031;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.footer-icon-div {
+    margin: 6% auto;
+    text-align: center;
+}
+
+.footer-icons {
+    margin: 0 2%;
+}
+
+.footer-icons:hover {
+    color: #d14031;
+    transition: all .3s linear;
+    cursor: pointer;
+}
