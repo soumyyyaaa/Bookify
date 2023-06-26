@@ -144,6 +144,14 @@ function Home() {
       </div>
       <Container10Home />
       <Container11Home />
+      <div className="container12-home">
+        <h1 className="heading-home" style={{fontSize: '2.5rem'}}>SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <p style={{ color: "#676767", margin: '3% auto' }}>Enter your email address to receive regular updates, as well as news on upcoming events and speciic offers.</p>
+        <form >
+          <input type="email" placeholder="Email Address" className="home-input" />
+          <input type="submit" value="Subscribe" className="container7-shop-now" style={{padding: '1.1% 5%'}}></input>
+        </form>
+      </div>
     </div>
   );
 }

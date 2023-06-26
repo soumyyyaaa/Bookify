@@ -122,3 +122,13 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
+.container12-home {
+    padding: 5%;
+}
+
+.home-input {
+    border: 1px solid #d14031;
+    padding: 1%;
+    width: 40%;
+    color: #676767;
+}
