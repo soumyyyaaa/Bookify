@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import latestNews1 from "../Images/latest-news-img1.png";
 import latestNews2 from "../Images/latest-news-img2.png";
 import latestNews3 from "../Images/latest-news-img3.png";
@@ -13,11 +14,15 @@ function Container10Home() {
       <hr className="line-home" />
       <div className="latest-news">
         <div className="latest-news-content">
-          <img
-            src={latestNews1}
-            alt="latest news 1"
-            style={{ width: "100%" }}
-          />
+          <div className="demo-div">
+            <img
+              src={latestNews1}
+              alt="latest news 1"
+              style={{ width: "100%" }}
+            />
+            <FontAwesomeIcon icon={faMagnifyingGlass} size="xl" className="search-icon" />
+          </div>
+          
           <p style={{ margin: "3% 0" }}>
             <FontAwesomeIcon icon={faCircleUser} /> Ramamoorthi M |{" "}
             <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
@@ -39,6 +44,7 @@ function Container10Home() {
             alt="latest news 2"
             style={{ width: "100%" }}
           />
+          <FontAwesomeIcon icon={faMagnifyingGlass} size="xl" className="search-icon" />
           <p style={{ margin: "3% 0" }}>
             <FontAwesomeIcon icon={faCircleUser} /> Ramamoorthi M |{" "}
             <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
@@ -60,6 +66,7 @@ function Container10Home() {
             alt="latest news 3"
             style={{ width: "100%" }}
           />
+          <FontAwesomeIcon icon={faMagnifyingGlass} size="xl" className="search-icon" />
           <p style={{ margin: "3% 0" }}>
             <FontAwesomeIcon icon={faCircleUser} /> Ramamoorthi M |{" "}
             <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020

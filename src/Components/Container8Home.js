@@ -3,12 +3,22 @@ import allBook3 from "../Images/all-book-3.png";
 import allBook9 from "../Images/all-book-9.png"
 import allBook10 from "../Images/all-book-10.png"
 import allBook11 from "../Images/all-book-11.png"
+import "../Components/Container4Home.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 function Container8Home() {
   return (
     <div className="container8-home">
       <div class="card" style={{ width: "18rem" }}>
         <img src={allBook9} class="card-img-top" alt="all-book-9" />
+        <ul className="image-hover-icons">
+          <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
+          <li><FontAwesomeIcon icon={faHeart} size="xl" className="hover-icons" /></li>
+          <li><FontAwesomeIcon icon={faEye} size="xl" className="hover-icons" /></li>
+        </ul>
         <div class="card-body">
           <p class="card-text">JAYDEN JUDAH</p>
           <h4 class="card-title">Beauty Of Structures</h4>
@@ -22,6 +32,11 @@ function Container8Home() {
       </div>
       <div class="card" style={{ width: "18rem" }}>
         <img src={allBook10} class="card-img-top" alt="all-book-10" />
+        <ul className="image-hover-icons">
+          <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
+          <li><FontAwesomeIcon icon={faHeart} size="xl" className="hover-icons" /></li>
+          <li><FontAwesomeIcon icon={faEye} size="xl" className="hover-icons" /></li>
+        </ul>
         <div class="card-body">
           <p class="card-text">SAGE ISAIAS</p>
           <h4 class="card-title">The Red Desert</h4>
@@ -35,6 +50,11 @@ function Container8Home() {
       </div>
       <div class="card" style={{ width: "18rem" }}>
         <img src={allBook3} class="card-img-top" alt="all-book-3" />
+        <ul className="image-hover-icons">
+          <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
+          <li><FontAwesomeIcon icon={faHeart} size="xl" className="hover-icons" /></li>
+          <li><FontAwesomeIcon icon={faEye} size="xl" className="hover-icons" /></li>
+        </ul>
         <div class="card-body">
           <p class="card-text">ERIK MARTIN</p>
           <h4 class="card-title">The Stadium by Night</h4>
@@ -48,6 +68,11 @@ function Container8Home() {
       </div>
       <div class="card" style={{ width: "18rem" }}>
         <img src={allBook11} class="card-img-top" alt="all-book-11" />
+        <ul className="image-hover-icons">
+          <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
+          <li><FontAwesomeIcon icon={faHeart} size="xl" className="hover-icons" /></li>
+          <li><FontAwesomeIcon icon={faEye} size="xl" className="hover-icons" /></li>
+        </ul>
         <div class="card-body">
           <p class="card-text">JAMES DYLAN</p>
           <h4 class="card-title">Adventurous Eating</h4>

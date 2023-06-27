@@ -32,44 +32,44 @@ function Container11Home() {
           <div className="carousel-item active">
             <img
               src={bookPublisher1}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
             <img
               src={bookPublisher2}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
             <img
               src={bookPublisher3}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
             <img
               src={bookPublisher4}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
               src={bookPublisher5}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
             <img
               src={bookPublisher6}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
             <img
               src={bookPublisher7}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
             <img
               src={bookPublisher8}
-              className="d-inline w-auto mx-5"
+              className="d-inline w-auto mx-4"
               alt="..."
             />
           </div>

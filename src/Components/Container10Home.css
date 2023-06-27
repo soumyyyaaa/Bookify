@@ -16,6 +16,52 @@
     justify-content: space-evenly;
 }
 
+.latest-news-content:hover {
+    cursor: pointer;
+}
+
 .latest-news-content:hover .card-title {
     color: #d14031;
 }
+
+.search-icon {
+    color: #fff;
+}
+
+.latest-news-content {
+    position: relative;  
+    width:100%;
+}
+
+.latest-news-content:before {
+    content:"";
+    position:absolute;
+    width:100%;
+    height:42%;
+    top:0;left:0;right:0;
+    background-color:rgba(0,0,0,0);
+}
+
+.latest-news-content:hover::before {
+    background-color:rgba(209,64,49,0.7);
+    transition-timing-function: linear;
+    transition: .5s;
+}
+
+.latest-news-content img {
+    display:block;
+}
+
+.latest-news-content .search-icon {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity:0;
+} 
+
+.latest-news-content:hover .search-icon {   
+    opacity: 1;
+}
+

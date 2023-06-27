@@ -6,6 +6,7 @@
 }
 
 .card {
+    align-items: center;
     border: none;
     text-align: left;
     margin-bottom: 10%;
@@ -42,3 +43,53 @@
     grid-template-columns: auto auto auto auto;
     gap: 2%;
 }
+
+.image-hover-icons {
+    list-style-type: none;
+}
+
+.hover-icons {
+    background-color: #d14031;
+    padding: 25%;
+    border-radius: 100%;
+    color: #fff;
+    margin: 20% auto;
+}
+
+.card {
+    position: relative;  
+    width:100%;
+}
+
+.card:before {
+    content:"";
+    position:absolute;
+    width:100%;
+    height:78%;
+    top:0;left:0;right:0;
+    background-color:rgba(0,0,0,0);
+}
+
+.card:hover::before {
+    background-color:rgba(255,255,255,0.5);
+    transition-timing-function: linear;
+    transition: .5s;
+}
+
+.card img {
+    display:block;
+}
+
+.card .image-hover-icons {
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity:0;
+} 
+
+.card:hover .image-hover-icons {   
+    opacity: 1;
+}
+
