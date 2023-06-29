@@ -101,6 +101,21 @@
     justify-content: space-evenly;
 }
 
+.best-author-image {
+    float: left;
+}
+
+.best-author-text {
+    text-align: left;
+    width: 40%;
+}
+
+.award-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+}
+
 .container7-home {
     background-image: url("../Images/home-bg-img3.png");
     background-position: center;
@@ -195,6 +210,31 @@
         padding: 12% 0;
         background-attachment: scroll;
     }
+
+    .container6-home {
+        padding: 5% 4%;
+    }
     
+    .best-author {
+        margin: 6% 0 2% 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
     
+    .best-author-image {
+        width: 80%;
+        padding: 0% 0% 5% 0
+    }
+
+    .best-author-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .award-images {
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
 }

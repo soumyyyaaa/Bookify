@@ -84,8 +84,8 @@ function Home() {
         <h2 className="heading-new-arrivals">BEST AUTHOR OF THE WEEK</h2>
         <hr className="line-home" />
         <div className="best-author">
-          <img src={dwayne} alt="dawyne" style={{ float: "left" }} />
-          <div style={{ textAlign: "left", width: "40%" }}>
+          <img src={dwayne} alt="dawyne" className="best-author-image" />
+          <div className="best-author-text">
             <h3 className="card-title" style={{ marginBottom: "3%" }}>
               Dwayne Johnson
             </h3>
@@ -96,12 +96,10 @@ function Home() {
             <h4 className="card-title" style={{ marginBottom: "3%" }}>
               My Awards
             </h4>
-            <div style={{ marginBottom: "3%" }}>
+            <div className="award-images" style={{ marginBottom: "3%" }}>
               <img src={award1} alt="award-1" style={{ marginRight: "4%" }} />
               <img src={award2} alt="award-2" style={{ marginRight: "4%" }} />
-              <img src={award3} alt="award-3" />
-            </div>
-            <div>
+              <img src={award3} alt="award-3" style={{ marginRight: "4%" }} />
               <img src={award4} alt="award-4" style={{ marginRight: "4%" }} />
               <img src={award5} alt="award-5" style={{ marginRight: "4%" }} />
               <img src={award5} alt="award-5" />
