@@ -108,12 +108,12 @@ function Home() {
         </div>
       </div>
       <div className="container7-home">
-        <div style={{ width: "50%", textAlign: "left", marginLeft: "40%" }}>
-          <h3 style={{ color: "#676767", fontWeight: 600, fontSize: "2rem" }}>
+        <div className="special-offers-text">
+          <h3 className="special-offers">
             Special Offers
           </h3>
           <h1 className="heading-home">30% Discount On Books Learn Language</h1>
-          <p style={{ color: "#676767" }}>
+          <p className="special-offers-description" style={{ color: "#676767" }}>
             Online shopping for Language Learning & Teaching from a great
             selection at Books ... Language, Linguistics & Writing ... vashista
             360 spoken english book.
