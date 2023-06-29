@@ -98,10 +98,14 @@
         padding: 5% 4%;
         grid-template-columns: auto;
         gap: 1%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     
     .card {
         margin-bottom: 5%;
+        text-align: center;
     }
     
     .card-text {
@@ -112,7 +116,7 @@
     .container8-home {
         padding: 3% 4%;
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto;
         gap: 2%;
     }
     
