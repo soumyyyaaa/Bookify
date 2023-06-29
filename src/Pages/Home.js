@@ -19,7 +19,7 @@ function Home() {
     <div>
       <div className="container1-home">
         <div className="text-container-home">
-          <h3 style={{ color: "black", fontWeight: 600, fontSize: "2rem" }}>
+          <h3 className="year-end-sale">
             Year end sale
           </h3>
           <h1 className="heading-home">Get 70% Off For All Design Books</h1>
@@ -33,8 +33,8 @@ function Home() {
       <div className="container2-home">
         <span>
           <FontAwesomeIcon icon={faTruckFast} size="2xl" />
-          <span style={{ float: "right", textAlign: "left" }}>
-            <h6>FREE SHIPPING</h6>
+          <span className="container2-icons">
+            <h6 className="container2-heading">FREE SHIPPING</h6>
             <p style={{ color: "#707070" }}>Order over $100</p>
           </span>
         </span>
@@ -44,15 +44,15 @@ function Home() {
             size="2xl"
             style={{ alignItems: "center" }}
           />
-          <span style={{ float: "right", textAlign: "left" }}>
-            <h6>SECURE PAYMENT</h6>
+          <span className="container2-icons">
+            <h6 className="container2-heading">SECURE PAYMENT</h6>
             <p style={{ color: "#707070" }}>100% Secure Payment</p>
           </span>
         </span>
         <span>
           <FontAwesomeIcon icon={faTag} flip="horizontal" size="2xl" />
-          <span style={{ float: "right", textAlign: "left" }}>
-            <h6>BEST PRICE</h6>
+          <span className="container2-icons">
+            <h6 className="container2-heading">BEST PRICE</h6>
             <p style={{ color: "#707070" }}>Guaranteed Price</p>
           </span>
         </span>
