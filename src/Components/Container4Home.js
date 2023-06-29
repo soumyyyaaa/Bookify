@@ -15,7 +15,7 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 function Container4Home() {
   return (
     <div className="container4-home">
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook1} class="card-img-top" alt="all-book-1" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>

@@ -187,10 +187,8 @@
     }
 
     .container2-home {
-        display: grid;
-        grid-template-columns: auto;
+        display: block;
         padding: 8% 4%;
-        grid-gap: 10%;
     }
 
     .container2-icons {
@@ -203,23 +201,22 @@
     }
 
     .container3-home {
-        margin-top: 15%;
         padding: 8% 4%;
     }
     
     .line-home {
         border: 2px solid #d14031;
+        margin-bottom: 5%;
     }
     
     .new-arrivals {
-        width: 100%;
+        width: 80%;
         padding: 5%;
-        margin: 4%;
+        margin: 4% 0;
     }
 
     .container5-home {
-        margin-top: 80%;
-        padding: 12% 0;
+        padding: 12% 4%;
         background-attachment: scroll;
     }
 
