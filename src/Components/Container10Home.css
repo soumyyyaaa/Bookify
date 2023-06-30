@@ -50,6 +50,7 @@
 
 .latest-news-content img {
     display:block;
+    width: 100%;
 }
 
 .latest-news-content .search-icon {
@@ -65,3 +66,42 @@
     opacity: 1;
 }
 
+@media only screen and (max-width: 480px) {
+    .container10-home {
+        padding: 8% 4% 3% 4%;
+    }
+    
+    .latest-news {
+        display: block;
+        margin-top: 8%;
+    }
+ 
+    .latest-news-content {
+        position: relative;  
+        width:100%;
+    }
+    
+    .latest-news-content:before {
+        height: 41%;
+    }
+
+    .latest-news-content .search-icon {
+        top: 21%;
+        left: 50%;
+    } 
+
+    .latest-news-content img {
+        display:block;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .shop-now-container10 {
+        width: 50%;
+        padding: 2% 9%;
+        margin-bottom: 10%;
+    }
+ 
+}

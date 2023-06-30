@@ -18,7 +18,6 @@ function Container10Home() {
             <img
               src={latestNews1}
               alt="latest news 1"
-              style={{ width: "100%" }}
             />
             <FontAwesomeIcon icon={faMagnifyingGlass} size="xl" className="search-icon" />
           </div>
@@ -36,13 +35,12 @@ function Container10Home() {
             that take what we're going through, what we're feeling, and put them
             down on a page so we can see ourselves mirrored.
           </p>
-          <button className="shop-now" style={{marginTop: '5%'}}>Read More</button>
+          <button className="shop-now shop-now-container10" style={{marginTop: '5%'}}>Read More</button>
         </div>
         <div className="latest-news-content">
           <img
             src={latestNews2}
             alt="latest news 2"
-            style={{ width: "100%" }}
           />
           <FontAwesomeIcon icon={faMagnifyingGlass} size="xl" className="search-icon" />
           <p style={{ margin: "3% 0" }}>
@@ -58,13 +56,12 @@ function Container10Home() {
             heavily on nature, individualism, and the idea of the ''common
             man''—the working class person reflective of everyday society.
           </p>
-          <button className="shop-now">Read More</button>
+          <button className="shop-now shop-now-container10" style={{marginTop: '5%'}}>Read More</button>
         </div>
         <div className="latest-news-content">
           <img
             src={latestNews3}
             alt="latest news 3"
-            style={{ width: "100%" }}
           />
           <FontAwesomeIcon icon={faMagnifyingGlass} size="xl" className="search-icon" />
           <p style={{ margin: "3% 0" }}>
@@ -80,7 +77,7 @@ function Container10Home() {
             currency of our pop-culture discourse—and inspired some of our best
             writers to contribute to the genre.
           </p>
-          <button className="shop-now" style={{marginTop: '6%'}}>Read More</button>
+          <button className="shop-now shop-now-container10" style={{marginTop: '5%'}}>Read More</button>
         </div>
       </div>
     </div>
