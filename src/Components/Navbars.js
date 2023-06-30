@@ -2,6 +2,10 @@ import React from 'react';
 import "./Navbars.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function Navbars() {
   return (
@@ -10,6 +14,9 @@ function Navbars() {
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
+          <FontAwesomeIcon icon={faCartShopping} size="lg" style={{marginRight:15}} className="icons-header-navbar" />
+          <FontAwesomeIcon icon={faHeart} size="lg" className="icons-header-navbar" />
+          <FontAwesomeIcon icon={faUser} size="lg" className="icons-header-navbar" />
           <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div className="offcanvas-header">
               <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

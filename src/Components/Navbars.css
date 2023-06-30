@@ -4,6 +4,10 @@
     background-color: #e12503;
 }
 
+.icons-header-navbar {
+    display: none;
+}
+
 .nav-item {
     margin-left: 1%;
     margin-right: 1%;
@@ -27,4 +31,42 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .icons-header-navbar {
+        display: inline;
+    }
+
+    .icons-header-navbar:hover {
+        color: #d14031;
+        -webkit-background-clip: text;
+              background-clip: text;
+        transition: all .3s linear;
+    }
+
+    .navbar {
+        background-color: #fff;
+    }
+    
+    .container-fluid {
+        justify-content: space-around !important;
+    }
+
+    .nav-item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .nav-link {
+        color: #000 !important;
+        text-align: left;
+    }
+
+    .nav-link:hover {
+        background-color: #cccccc !important;
+        color: #e12503 !important;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #cccccc !important;
+        color: #e12503 !important;
+    }
 }

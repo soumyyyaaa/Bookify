@@ -33,7 +33,7 @@ function Container4Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook2} class="card-img-top" alt="all-book-2" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -51,7 +51,7 @@ function Container4Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook3} class="card-img-top" alt="all-book-3" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -69,7 +69,7 @@ function Container4Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook4} class="card-img-top" alt="all-book-4" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -87,7 +87,7 @@ function Container4Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook5} class="card-img-top" alt="all-book-5" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -105,7 +105,7 @@ function Container4Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook6} class="card-img-top" alt="all-book-6" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -123,7 +123,7 @@ function Container4Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook7} class="card-img-top" alt="all-book-7" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -141,7 +141,7 @@ function Container4Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook8} class="card-img-top" alt="all-book-8" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>

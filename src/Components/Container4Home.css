@@ -11,7 +11,6 @@
     text-align: left;
     margin-bottom: 10%;
     cursor: pointer;
-    width: 18rem;
 }
 
 .card-text {
@@ -103,15 +102,10 @@
     .card {
         text-align: center;
         margin-bottom: 10%;
-        width: 8rem;
-    }
-    
-    .card-img-top {
-        width: 80%;
     }
  
     .card:hover .card-img-top {
-        transform: none;
+        transform: scale(1.0);
     }
     
     .container8-home {
@@ -119,9 +113,11 @@
         display: block;
     }
 
-    .card .image-hover-icons {
-        position: absolute;
-        top: 35%;
-        left: 70%;
-    } 
+    .card:before {
+        height:79%;
+    }
+
+    .card img {
+        display:block;
+    }
 }
