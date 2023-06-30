@@ -74,8 +74,7 @@ function Home() {
           ALL BOOKS ARE FLAT <strong>50% OFF</strong>
         </h5>
         <button
-          className="shop-now"
-          style={{ marginTop: "3%", padding: "1% 3%" }}
+          className="shop-now shop-now-container5"
         >
           Shop Now
         </button>
@@ -134,8 +133,7 @@ function Home() {
           Give your family and friends a book
         </h5>
         <button
-          className="shop-now"
-          style={{ marginTop: "3%", padding: "1% 3%" }}
+          className="shop-now shop-now-container9"
         >
           Shop Now
         </button>
@@ -143,7 +141,7 @@ function Home() {
       <Container10Home />
       <Container11Home />
       <div className="container12-home">
-        <h1 className="heading-home" style={{fontSize: '2.5rem'}}>SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <h1 className="heading-home heading-subscribe">SUBSCRIBE TO OUR NEWSLETTER</h1>
         <p style={{ color: "#676767", margin: '3% auto' }}>Enter your email address to receive regular updates, as well as news on upcoming events and speciic offers.</p>
         <form >
           <input type="email" placeholder="Email Address" className="home-input" />
