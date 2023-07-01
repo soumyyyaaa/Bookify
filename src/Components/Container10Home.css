@@ -82,7 +82,7 @@
     }
     
     .latest-news-content:before {
-        height: 41%;
+        height: 40%;
     }
 
     .latest-news-content .search-icon {
@@ -95,7 +95,7 @@
     }
 
     .card-title {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .shop-now-container10 {

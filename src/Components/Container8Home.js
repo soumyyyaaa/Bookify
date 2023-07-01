@@ -12,7 +12,7 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 function Container8Home() {
   return (
     <div className="container8-home">
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook9} class="card-img-top" alt="all-book-9" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -30,7 +30,7 @@ function Container8Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook10} class="card-img-top" alt="all-book-10" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -48,7 +48,7 @@ function Container8Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook3} class="card-img-top" alt="all-book-3" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>
@@ -66,7 +66,7 @@ function Container8Home() {
           </p>
         </div>
       </div>
-      <div class="card" style={{ width: "18rem" }}>
+      <div class="card">
         <img src={allBook11} class="card-img-top" alt="all-book-11" />
         <ul className="image-hover-icons">
           <li><FontAwesomeIcon icon={faCartShopping} size="xl" className="hover-icons"/></li>

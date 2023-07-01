@@ -229,8 +229,13 @@
     }
 
     .container5-home {
-        padding: 12% 4%;
+        padding: 0 4%;
         background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .container5-text {
+        padding: 16% 0;
     }
 
     .container5-home h3 {
@@ -298,7 +303,7 @@
     }
 
     .container9-home {
-        padding: 12% 4%;
+        padding: 16% 4%;
         background-attachment: scroll;
     }
 
@@ -315,7 +320,7 @@
     }
 
     .container12-home {
-        padding: 8% 4%;
+        padding: 20% 4%;
     }
 
     .heading-subscribe {

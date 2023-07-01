@@ -19,9 +19,7 @@ function Home() {
     <div>
       <div className="container1-home">
         <div className="text-container-home">
-          <h3 className="year-end-sale">
-            Year end sale
-          </h3>
+          <h3 className="year-end-sale">Year end sale</h3>
           <h1 className="heading-home">Get 70% Off For All Design Books</h1>
           <p>
             From type to logo design, the best graphic design books will take
@@ -68,16 +66,14 @@ function Home() {
       </div>
       <Container4Home />
       <div className="container5-home">
-        <h3 style={{ color: "#000" }}>Shop wide range of collections</h3>
-        <h1 className="heading-home">BOOK FESTIVAL</h1>
-        <h5 style={{ color: "#000" }}>
-          ALL BOOKS ARE FLAT <strong>50% OFF</strong>
-        </h5>
-        <button
-          className="shop-now shop-now-container5"
-        >
-          Shop Now
-        </button>
+        <div className="container5-text">
+          <h3 style={{ color: "#000" }}>Shop wide range of collections</h3>
+          <h1 className="heading-home">BOOK FESTIVAL</h1>
+          <h5 style={{ color: "#000" }}>
+            ALL BOOKS ARE FLAT <strong>50% OFF</strong>
+          </h5>
+          <button className="shop-now shop-now-container5">Shop Now</button>
+        </div>
       </div>
       <div className="container6-home">
         <h2 className="heading-new-arrivals">BEST AUTHOR OF THE WEEK</h2>
@@ -108,11 +104,12 @@ function Home() {
       </div>
       <div className="container7-home">
         <div className="special-offers-text">
-          <h3 className="special-offers">
-            Special Offers
-          </h3>
+          <h3 className="special-offers">Special Offers</h3>
           <h1 className="heading-home">30% Discount On Books Learn Language</h1>
-          <p className="special-offers-description" style={{ color: "#676767" }}>
+          <p
+            className="special-offers-description"
+            style={{ color: "#676767" }}
+          >
             Online shopping for Language Learning & Teaching from a great
             selection at Books ... Language, Linguistics & Writing ... vashista
             360 spoken english book.
@@ -132,20 +129,30 @@ function Home() {
         <h5 style={{ color: "#676767" }}>
           Give your family and friends a book
         </h5>
-        <button
-          className="shop-now shop-now-container9"
-        >
-          Shop Now
-        </button>
+        <button className="shop-now shop-now-container9">Shop Now</button>
       </div>
       <Container10Home />
       <Container11Home />
       <div className="container12-home">
-        <h1 className="heading-home heading-subscribe">SUBSCRIBE TO OUR NEWSLETTER</h1>
-        <p style={{ color: "#676767", margin: '3% auto' }}>Enter your email address to receive regular updates, as well as news on upcoming events and speciic offers.</p>
-        <form >
-          <input type="email" placeholder="Email Address" className="home-input" />
-          <input type="submit" value="Subscribe" className="container7-shop-now" style={{padding: '1.1% 5%'}}></input>
+        <h1 className="heading-home heading-subscribe">
+          SUBSCRIBE TO OUR NEWSLETTER
+        </h1>
+        <p style={{ color: "#676767", margin: "3% auto" }}>
+          Enter your email address to receive regular updates, as well as news
+          on upcoming events and speciic offers.
+        </p>
+        <form>
+          <input
+            type="email"
+            placeholder="Email Address"
+            className="home-input"
+          />
+          <input
+            type="submit"
+            value="Subscribe"
+            className="container7-shop-now"
+            style={{ padding: "1.1% 5%" }}
+          ></input>
         </form>
       </div>
     </div>
