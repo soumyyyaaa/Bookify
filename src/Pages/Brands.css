@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+
+.container1-brands {
+    background-image: url("../Images/brands-bg.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.opacity-container1 {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    height: 301px;
+    padding: 0;
+}
+
+.heading-brands {
+    color: #000;
+    padding: 10% 0 ;
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+}
+
+.container2-brands {
+    padding: 8% 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2%;
+}
+
+.all-collection-books-title {
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
+    color: #000;
+    margin-top: 8%;
+}
+
+@media only screen and (max-width: 480px) {
+    .opacity-container1 {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        height: 200px;
+        padding: 0;
+    }
+    
+    .container2-brands {
+        padding: 8% 4% 25% 4%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 2%;
+    }
+    
+    .all-collection-books-title {
+        font-weight: 700;
+        font-family: 'Cormorant Garamond', serif;
+        color: #000;
+        margin-top: 8%;
+    }
+}
