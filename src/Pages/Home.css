@@ -44,6 +44,7 @@
     padding: 4% 4% 4% 6%;
     background-color: #f7f7f7;
     grid-gap: 15%;
+    text-align: center;
 }
 
 .container2-icons {
@@ -53,10 +54,12 @@
 
 .container3-home {
     padding: 5% 7%;
+    text-align: center;
 }
 
 .heading-new-arrivals {
     color: #000;
+    text-align: center;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -88,6 +91,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
 }
 
 .shop-now-container5 {
@@ -158,6 +162,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
 }
 
 .shop-now-container9 {
@@ -167,6 +172,7 @@
 
 .container12-home {
     padding: 1% 5% 5% 5%;
+    text-align: center;
 }
 
 .heading-subscribe {

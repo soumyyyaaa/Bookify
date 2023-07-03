@@ -141,11 +141,12 @@ function Home() {
           Enter your email address to receive regular updates, as well as news
           on upcoming events and speciic offers.
         </p>
-        <form>
+        <form action="mailto: soumya.agarwal1103@gmail.com">
           <input
             type="email"
             placeholder="Email Address"
             className="home-input"
+            autoComplete="on"
           />
           <input
             type="submit"

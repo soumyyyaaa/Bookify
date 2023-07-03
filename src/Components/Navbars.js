@@ -6,9 +6,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { Outlet, Link } from "react-router-dom";
 
 function Navbars() {
   return (
+    <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -24,7 +26,7 @@ function Navbars() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Home</a>
+                  <Link to="/" style={{textDecoration: 'none'}}><a className="nav-link active" aria-current="page">Home</a></Link>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,10 +42,10 @@ function Navbars() {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Brands</a>
+                  <Link to="/brands" style={{textDecoration: 'none'}}><a className="nav-link">Brands</a></Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Best Sellers</a>
+                  <Link to="/bestsellers" style={{textDecoration: 'none'}}><a className="nav-link">Best Sellers</a></Link>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,6 +63,8 @@ function Navbars() {
           </div>
         </div>
       </nav>
+      <Outlet />
+    </>
   );
 }
 
