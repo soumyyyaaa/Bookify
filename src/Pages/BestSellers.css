@@ -23,3 +23,8 @@
     position: relative;
     padding: 10% 0;
 }
+
+.container2-bestsellers {
+    display: flex;
+    justify-content: space-between;
+}

@@ -10,7 +10,7 @@ const handleClick = (iconId) => {
     ".more-filters-items",
     ".brand-items",
     ".format-items",
-    ".language-items"
+    ".language-items",
   ];
   let filter = filterNames[iconId];
   const element = document.querySelector(filter);
@@ -23,159 +23,199 @@ const handleClick = (iconId) => {
 
 function Filter() {
   return (
-    <div>
-      <h6>Filter:</h6>
-      <hr />
+    <div className="filter-container">
+      <h6 className="heading-filter">Filter:</h6>
+      <hr style={{ color: "#676767" }} />
       <li style={{ listStyle: "none" }}>
-        <h6>Availability</h6>
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          size="2xl"
-          style={{ cursor: "pointer" }}
-          onClick={() => handleClick(0)}
-        />
-        <ul className="availability-items">
-          <input type="checkbox" />
+        <div className="list-flex">
+          <h6 className="heading-filter" onClick={() => handleClick(0)}>
+            Availability
+          </h6>
+          <FontAwesomeIcon
+            icon={faCaretDown}
+            size="xl"
+            style={{ cursor: "pointer" }}
+            onClick={() => handleClick(0)}
+          />
+        </div>
+        <ul className="availability-items list-items">
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>In Stock</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Out of Stock</label>
         </ul>
       </li>
-      <hr />
+      <hr style={{ color: "#676767" }} />
       <li style={{ listStyle: "none" }}>
-        <h6>Price Range</h6>
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          size="2xl"
-          onClick={() => handleClick(1)}
-          style={{ cursor: "pointer" }}
-        />
-        <ul className="price-range-items">
-          <p>The highest price is $16.65</p>
-          <p>$</p>
-          <input type="number" min={0} max={16} />
-          <input type="number" min={0} max={16} />
+        <div className="list-flex">
+          <h6 className="heading-filter" onClick={() => handleClick(1)}>
+            Price Range
+          </h6>
+          <FontAwesomeIcon
+            icon={faCaretDown}
+            size="xl"
+            onClick={() => handleClick(1)}
+            style={{ cursor: "pointer" }}
+          />
+        </div>
+        <ul className="price-range-items list-items">
+          <p>The highest price is $15.38</p>
+          <p style={{ display: "inline", marginRight: "5%" }}>$</p>
+          <input
+            style={{ marginRight: "5%" }}
+            type="number"
+            min={0}
+            max={16}
+            placeholder="0"
+          />
+          <input
+            style={{ marginRight: "5%" }}
+            type="number"
+            min={0}
+            max={16}
+            placeholder="15.38"
+          />
         </ul>
       </li>
-      <hr />
+      <hr style={{ color: "#676767" }} />
       <li style={{ listStyle: "none" }}>
-        <h6>Product Type</h6>
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          size="2xl"
-          onClick={() => handleClick(2)}
-          style={{ cursor: "pointer" }}
-        />
-        <ul className="product-type-items">
-          <input type="checkbox" />
+        <div className="list-flex">
+          <h6 className="heading-filter" onClick={() => handleClick(2)}>
+            Product Type
+          </h6>
+          <FontAwesomeIcon
+            icon={faCaretDown}
+            size="xl"
+            onClick={() => handleClick(2)}
+            style={{ cursor: "pointer" }}
+          />
+        </div>
+        <ul className="product-type-items list-items">
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Business (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Entertainment (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Fiction (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Humor (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Literature (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Sugar Flakes(0)</label>
         </ul>
       </li>
-      <hr />
+      <hr style={{ color: "#676767" }} />
       <li style={{ listStyle: "none" }}>
-        <h6>More Filters</h6>
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          size="2xl"
-          onClick={() => handleClick(3)}
-          style={{ cursor: "pointer" }}
-        />
-        <ul className="more-filters-items">
-          <input type="checkbox" />
+        <div className="list-flex">
+          <h6 className="heading-filter" onClick={() => handleClick(3)}>
+            More Filters
+          </h6>
+          <FontAwesomeIcon
+            icon={faCaretDown}
+            size="xl"
+            onClick={() => handleClick(3)}
+            style={{ cursor: "pointer" }}
+          />
+        </div>
+        <ul className="more-filters-items list-items">
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>$100 - $200 (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>$200 - $300 (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>$300 - $400 (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Adam Baid (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Alice James (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Donald William (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Hardcover (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Hebrew (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Paperback (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Spanish (0)</label>
         </ul>
       </li>
-      <hr />
+      <hr style={{ color: "#676767" }} />
       <li style={{ listStyle: "none" }}>
-        <h6>Brand</h6>
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          size="2xl"
-          onClick={() => handleClick(4)}
-          style={{ cursor: "pointer" }}
-        />
-        <ul className="brand-items">
-          <input type="checkbox" />
+        <div className="list-flex">
+          <h6 className="heading-filter" onClick={() => handleClick(4)}>
+            Brand
+          </h6>
+          <FontAwesomeIcon
+            icon={faCaretDown}
+            size="xl"
+            onClick={() => handleClick(4)}
+            style={{ cursor: "pointer" }}
+          />
+        </div>
+        <ul className="brand-items list-items">
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Erik Martin (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>James Dylan (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Jayden Judah (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Robin Triple (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Sage Isaias (0)</label>
         </ul>
       </li>
-      <hr />
+      <hr style={{ color: "#676767" }} />
       <li style={{ listStyle: "none" }}>
-        <h6>Format</h6>
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          size="2xl"
-          onClick={() => handleClick(5)}
-          style={{ cursor: "pointer" }}
-        />
-        <ul className="format-items">
-          <input type="checkbox" />
+        <div className="list-flex">
+          <h6 className="heading-filter" onClick={() => handleClick(5)}>
+            Format
+          </h6>
+          <FontAwesomeIcon
+            icon={faCaretDown}
+            size="xl"
+            onClick={() => handleClick(5)}
+            style={{ cursor: "pointer" }}
+          />
+        </div>
+        <ul className="format-items list-items">
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Audible Audiobook (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Hardcover (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Kindle Edition (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Largeprint (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Paperback (0)</label>
         </ul>
       </li>
-      <hr />
+      <hr style={{ color: "#676767" }} />
       <li style={{ listStyle: "none" }}>
-        <h6>Language</h6>
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          size="2xl"
-          onClick={() => handleClick(6)}
-          style={{ cursor: "pointer" }}
-        />
-        <ul className="language-items">
-          <input type="checkbox" />
+        <div className="list-flex">
+          <h6 className="heading-filter" onClick={() => handleClick(6)}>
+            Language
+          </h6>
+          <FontAwesomeIcon
+            icon={faCaretDown}
+            size="xl"
+            onClick={() => handleClick(6)}
+            style={{ cursor: "pointer" }}
+          />
+        </div>
+        <ul className="language-items list-items">
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>English (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Hebrew (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Japanese (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Korean (0)</label> <br />
-          <input type="checkbox" />
+          <input style={{ marginRight: "5%" }} type="checkbox" />
           <label>Spanish (0)</label>
         </ul>
       </li>

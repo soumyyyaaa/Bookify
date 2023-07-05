@@ -10,6 +10,9 @@ function BestSellers() {
       </div>
       <div className="container2-bestsellers">
         <Filter />
+        <div>
+          
+        </div>
       </div>
     </div>
   );
