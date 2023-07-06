@@ -40,3 +40,28 @@
     grid-template-columns: auto auto auto;
     grid-gap: 5%;
 }
+
+@media only screen and (max-width: 480px) {
+    .opacity-container-bestsellers {
+        height: 108px;
+    }
+    
+    .heading-bestsellers {
+        font-size: 1.3rem;
+    }
+    
+    .container2-bestsellers {
+        display: block;
+    }
+    
+    .container3-bestsellers {
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    .container4-bestsellers {
+        display: block;
+        padding: 3% 4% 8% 4%;
+    }
+}
