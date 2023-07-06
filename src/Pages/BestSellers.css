@@ -28,3 +28,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+.container3-bestsellers {
+    padding: 0 4% 8% 4%;
+    width: 78%;
+}
+
+
+.container4-bestsellers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+}
