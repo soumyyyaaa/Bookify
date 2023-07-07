@@ -29,11 +29,19 @@
     justify-content: space-between;
 }
 
+.on-mobile-display {
+    display: none;
+}
+
 .container3-bestsellers {
     padding: 0 4% 8% 4%;
     width: 78%;
 }
 
+.filter-desktop {
+    width: 22%;
+    padding: 8% 0 2% 2%;
+}
 
 .container4-bestsellers {
     display: grid;
@@ -63,5 +71,13 @@
     .container4-bestsellers {
         display: block;
         padding: 3% 4% 8% 4%;
+    }
+
+    .on-mobile-display {
+        display: block;
+    }
+
+    .filter-desktop {
+        display: none;
     }
 }

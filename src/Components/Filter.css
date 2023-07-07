@@ -31,9 +31,9 @@
 
 .filter-container {
     color: #000;
-    width: 22%;
+    width: 100%;
     font-family: 'Cormorant Garamond', serif;
-    padding: 2%;
+    padding: 10%;
 }
 
 .heading-filter {

@@ -10,6 +10,7 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 import "../Pages/BestSellers.css";
 import Filter from "../Components/Filter";
+import FilterOnMobile from "./FilterOnMobile";
 
 function BestSellers() {
   return (
@@ -19,7 +20,12 @@ function BestSellers() {
         <h2 className="heading-bestsellers">Collection</h2>
       </div>
       <div className="container2-bestsellers">
+        <div className="filter-desktop">
         <Filter />
+        </div>
+        <div className="on-mobile-display">
+          <FilterOnMobile />
+        </div>
         <div className="container3-bestsellers">
           <h1 className="heading-bestsellers" style={{padding: '0', textAlign: 'center', margin: '5% 0'}}>Humor</h1>
           <div className="container4-bestsellers">
