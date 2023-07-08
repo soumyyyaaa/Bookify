@@ -1,0 +1,79 @@
+.container1-categories {
+  background-image: url("../Images/brands-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  text-align: center;
+}
+
+.opacity-container-categories {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  height: 301px;
+  padding: 0;
+}
+
+.heading-categories {
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+  position: relative;
+  padding: 10% 0;
+}
+
+.container2-categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.on-mobile-display {
+  display: none;
+}
+
+.container3-categories {
+  padding: 0 4% 8% 4%;
+  width: 78%;
+}
+
+.filter-desktop {
+  width: 22%;
+  padding: 8% 0 2% 2%;
+}
+
+.container4-categories {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3%;
+}
+
+@media only screen and (max-width: 480px) {
+  .opacity-container-categories {
+    height: 108px;
+  }
+
+  .heading-categories {
+    font-size: 1.3rem;
+  }
+
+  .container2-categories {
+    display: block;
+  }
+
+  .container3-categories {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container4-categories {
+    display: block;
+    padding: 3% 4% 8% 4%;
+  }
+
+  .on-mobile-display {
+    display: block;
+  }
+
+  .filter-desktop {
+    display: none;
+  }
+}
