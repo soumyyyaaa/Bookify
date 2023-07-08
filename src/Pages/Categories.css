@@ -43,7 +43,24 @@
 .container4-categories {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 3%;
+  grid-column-gap: 3%;
+}
+
+.buttons-categories {
+  text-align: center;
+}
+
+.next-categories {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1.3% 2%;
+  margin: 0 1%;
+}
+
+.next-categories:hover {
+  background-color: #d14031;
+  transition: .4s;
 }
 
 @media only screen and (max-width: 480px) {

@@ -8,6 +8,7 @@ import Brands from './Pages/Brands';
 import BestSellers from './Pages/BestSellers';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
+import Categories2 from './Pages/Categories2';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/categories" element={<Categories />} />
         <Route path="/brands" element={<Brands />} />
         <Route path="/bestsellers" element={<BestSellers />} />
+        <Route path="/categoriespage2" element={<Categories2 />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -6,6 +6,7 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faForwardStep } from "@fortawesome/free-solid-svg-icons";
 import allBook11 from "../Images/all-book-11.png";
 import allBook9 from "../Images/all-book-9.png";
 import allBook7 from "../Images/all-book-7.png";
@@ -22,6 +23,7 @@ import allBook14 from "../Images/all-book-14.png";
 import allBook16 from "../Images/all-book-16.png";
 import allBook15 from "../Images/all-book-15.png";
 import allBook12 from "../Images/all-book-12.png";
+import { Outlet, Link } from "react-router-dom";
 
 function Categories() {
   return (
@@ -475,6 +477,277 @@ function Categories() {
                 <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
               </div>
             </div>
+            <div className="card">
+              <img src={allBook13} className="card-img-top" alt="all-book-13" />
+              <ul className="image-hover-icons">
+                <li>
+                  <FontAwesomeIcon
+                    icon={faCartShopping}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faHeart}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faEye}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+              </ul>
+              <div className="card-body">
+                <p className="card-text">JAYDEN JUDAH</p>
+                <h4 className="card-title">Lightspeed Robots</h4>
+                <p className="card-text">
+                  $12.25{" "}
+                  <span
+                    style={{ textDecoration: "line-through", color: "#b8b8b8" }}
+                  >
+                    $15.63
+                  </span>
+                </p>
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} />
+              </div>
+            </div>
+            <div className="card">
+              <img src={allBook20} className="card-img-top" alt="all-book-20" />
+              <ul className="image-hover-icons">
+                <li>
+                  <FontAwesomeIcon
+                    icon={faCartShopping}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faHeart}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faEye}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+              </ul>
+              <div className="card-body">
+                <p className="card-text">ROBIN TRIPLE</p>
+                <h4 className="card-title">Seafood Gourment</h4>
+                <p className="card-text">
+                  $6.58{" "}
+                  <span
+                    style={{ textDecoration: "line-through", color: "#b8b8b8" }}
+                  >
+                    $9.44
+                  </span>
+                </p>
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+              </div>
+            </div>
+            <div className="card">
+              <img src={allBook14} className="card-img-top" alt="all-book-14" />
+              <ul className="image-hover-icons">
+                <li>
+                  <FontAwesomeIcon
+                    icon={faCartShopping}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faHeart}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faEye}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+              </ul>
+              <div className="card-body">
+                <p className="card-text">ERIK MARTIN</p>
+                <h4 className="card-title">Silent Women</h4>
+                <p className="card-text">
+                  $10.25{" "}
+                  <span
+                    style={{ textDecoration: "line-through", color: "#b8b8b8" }}
+                  >
+                    $13.68
+                  </span>
+                </p>
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+              </div>
+            </div>
+            <div className="card">
+              <img src={allBook16} className="card-img-top" alt="all-book-16" />
+              <ul className="image-hover-icons">
+                <li>
+                  <FontAwesomeIcon
+                    icon={faCartShopping}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faHeart}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faEye}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+              </ul>
+              <div className="card-body">
+                <p className="card-text">ERIK MARTIN</p>
+                <h4 className="card-title">Skin Like Daffodils</h4>
+                <p className="card-text">
+                  $13.00{" "}
+                  <span
+                    style={{ textDecoration: "line-through", color: "#b8b8b8" }}
+                  >
+                    $16.12
+                  </span>
+                </p>
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+              </div>
+            </div>
+            <div className="card">
+              <img src={allBook15} className="card-img-top" alt="all-book-15" />
+              <ul className="image-hover-icons">
+                <li>
+                  <FontAwesomeIcon
+                    icon={faCartShopping}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faHeart}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faEye}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+              </ul>
+              <div className="card-body">
+                <p className="card-text">JAYDEN JUDAH</p>
+                <h4 className="card-title">The Gift of Love</h4>
+                <p className="card-text">
+                  $11.98{" "}
+                  <span
+                    style={{ textDecoration: "line-through", color: "#b8b8b8" }}
+                  >
+                    $14.22
+                  </span>
+                </p>
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} />
+              </div>
+            </div>
+            <div className="card">
+              <img src={allBook12} className="card-img-top" alt="all-book-12" />
+              <ul className="image-hover-icons">
+                <li>
+                  <FontAwesomeIcon
+                    icon={faCartShopping}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faHeart}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faEye}
+                    size="xl"
+                    className="hover-icons"
+                  />
+                </li>
+              </ul>
+              <div className="card-body">
+                <p className="card-text">SAGE ISAIAS</p>
+                <h4 className="card-title">The Happy Lemon</h4>
+                <p className="card-text">
+                  $13.38{" "}
+                  <span
+                    style={{ textDecoration: "line-through", color: "#b8b8b8" }}
+                  >
+                    $16.56
+                  </span>
+                </p>
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+                <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
+              </div>
+            </div>
+          </div>
+          <div className="buttons-categories">
+            <Link to="/categories">
+              <button className="next-categories">1</button>
+            </Link>
+            <Link to="/categoriespage2">
+              <button className="next-categories">2</button>
+            </Link>
+            <Link to="/categoriespage2">
+              <button className="next-categories">
+                <FontAwesomeIcon icon={faForwardStep} />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
