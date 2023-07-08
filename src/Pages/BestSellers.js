@@ -10,7 +10,7 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 import "../Pages/BestSellers.css";
 import Filter from "../Components/Filter";
-import FilterOnMobile from "./FilterOnMobile";
+import FilterOnMobile from "../Components/FilterOnMobile";
 
 function BestSellers() {
   return (
@@ -29,8 +29,8 @@ function BestSellers() {
         <div className="container3-bestsellers">
           <h1 className="heading-bestsellers" style={{padding: '0', textAlign: 'center', margin: '5% 0'}}>Humor</h1>
           <div className="container4-bestsellers">
-            <div class="card">
-              <img src={allBook13} class="card-img-top" alt="all-book-13" />
+            <div className="card">
+              <img src={allBook13} className="card-img-top" alt="all-book-13" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -54,10 +54,10 @@ function BestSellers() {
                   />
                 </li>
               </ul>
-              <div class="card-body">
-                <p class="card-text">Jayden Judah</p>
-                <h4 class="card-title">Lightspeed Robots</h4>
-                <p class="card-text">
+              <div className="card-body">
+                <p className="card-text">Jayden Judah</p>
+                <h4 className="card-title">Lightspeed Robots</h4>
+                <p className="card-text">
                   $12.25{" "}
                   <span
                     style={{ textDecoration: "line-through", color: "#b8b8b8" }}
@@ -72,8 +72,8 @@ function BestSellers() {
                 <FontAwesomeIcon icon={faStar} />
               </div>
             </div>
-            <div class="card">
-              <img src={allBook15} class="card-img-top" alt="all-book-15" />
+            <div className="card">
+              <img src={allBook15} className="card-img-top" alt="all-book-15" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -97,10 +97,10 @@ function BestSellers() {
                   />
                 </li>
               </ul>
-              <div class="card-body">
-                <p class="card-text">Jayden Judah</p>
-                <h4 class="card-title">The Gift of Love</h4>
-                <p class="card-text">
+              <div className="card-body">
+                <p className="card-text">Jayden Judah</p>
+                <h4 className="card-title">The Gift of Love</h4>
+                <p className="card-text">
                   $11.98{" "}
                   <span
                     style={{ textDecoration: "line-through", color: "#b8b8b8" }}
@@ -115,8 +115,8 @@ function BestSellers() {
                 <FontAwesomeIcon icon={faStar} />
               </div>
             </div>
-            <div class="card">
-              <img src={allBook12} class="card-img-top" alt="all-book-12" />
+            <div className="card">
+              <img src={allBook12} className="card-img-top" alt="all-book-12" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -140,10 +140,10 @@ function BestSellers() {
                   />
                 </li>
               </ul>
-              <div class="card-body">
-                <p class="card-text">Sage Isaias</p>
-                <h4 class="card-title">The Happy Lemon</h4>
-                <p class="card-text">
+              <div className="card-body">
+                <p className="card-text">Sage Isaias</p>
+                <h4 className="card-title">The Happy Lemon</h4>
+                <p className="card-text">
                   $13.38{" "}
                   <span
                     style={{ textDecoration: "line-through", color: "#b8b8b8" }}
@@ -158,8 +158,8 @@ function BestSellers() {
                 <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
               </div>
             </div>
-            <div class="card">
-              <img src={allBook16} class="card-img-top" alt="all-book-16" />
+            <div className="card">
+              <img src={allBook16} className="card-img-top" alt="all-book-16" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -183,10 +183,10 @@ function BestSellers() {
                   />
                 </li>
               </ul>
-              <div class="card-body">
-                <p class="card-text">Erik Martin</p>
-                <h4 class="card-title">Skin Like Daffodils</h4>
-                <p class="card-text">
+              <div className="card-body">
+                <p className="card-text">Erik Martin</p>
+                <h4 className="card-title">Skin Like Daffodils</h4>
+                <p className="card-text">
                   $13.00{" "}
                   <span
                     style={{ textDecoration: "line-through", color: "#b8b8b8" }}

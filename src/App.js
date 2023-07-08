@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Navbars from './Components/Navbars';
 import Home from './Pages/Home';
+import Categories from './Pages/Categories';
 import Footer from './Components/Footer';
 import Brands from './Pages/Brands';
 import BestSellers from './Pages/BestSellers';
@@ -15,6 +16,7 @@ export default function App() {
       <Navbars />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/categories" element={<Categories />} />
         <Route path="/brands" element={<Brands />} />
         <Route path="/bestsellers" element={<BestSellers />} />
       </Routes>

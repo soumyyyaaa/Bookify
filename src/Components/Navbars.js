@@ -28,18 +28,8 @@ function Navbars() {
                 <li className="nav-item">
                   <Link to="/" style={{textDecoration: 'none'}}><a className="nav-link active" aria-current="page">Home</a></Link>
                 </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categories
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Poetry</a></li>
-                    <li><a className="dropdown-item" href="#">Science Fiction</a></li>
-                    <li><a className="dropdown-item" href="#">Nonfiction</a></li>
-                    <li><a className="dropdown-item" href="#">Fantasy</a></li>
-                    <li><a className="dropdown-item" href="#">Mystery</a></li>
-                    <li><a className="dropdown-item" href="#">Biography</a></li>
-                  </ul>
+                <li className="nav-item">
+                  <Link to="/categories" style={{textDecoration: 'none'}}><a className="nav-link">Categories</a></Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/brands" style={{textDecoration: 'none'}}><a className="nav-link">Brands</a></Link>
