@@ -17,7 +17,7 @@ function AboutUs() {
       <div className="container2-aboutus">
         <div className="container-grid-aboutus">
           <img src={aboutUsImg1} alt="about-us-img-1" width="100%" />
-          <div>
+          <div className="grid-item">
             <FontAwesomeIcon
               icon={faDroplet}
               size="2xl"
@@ -36,7 +36,7 @@ function AboutUs() {
             </p>
           </div>
           <img src={aboutUsImg2} alt="about-us-img-2" width="100%" className="image-aboutus-hidden" />
-          <div style={{ textAlign: "right" }}>
+          <div className="grid-item-right">
             <FontAwesomeIcon
               icon={faList}
               flip="horizontal"
@@ -57,7 +57,7 @@ function AboutUs() {
           </div>
           <img src={aboutUsImg2} alt="about-us-img-2" width="100%" className="image-aboutus" />
           <img src={aboutUsImg3} alt="about-us-img-3" width="100%" />
-          <div>
+          <div className="grid-item">
             <FontAwesomeIcon
               icon={faPerson}
               size="2xl"
