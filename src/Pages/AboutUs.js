@@ -6,6 +6,7 @@ import { faPerson } from "@fortawesome/free-solid-svg-icons";
 import aboutUsImg1 from "../Images/about-us-img1.png";
 import aboutUsImg2 from "../Images/about-us-img2.png";
 import aboutUsImg3 from "../Images/about-us-img3.png";
+import Container4AboutUs from "../Components/Container4AboutUs";
 
 function AboutUs() {
   return (
@@ -79,7 +80,7 @@ function AboutUs() {
       <div className="container3-aboutus">
         <h1 className="heading-new-arrivals">TESTIMONIAL</h1>
         <hr className="line-home" />
-
+        <Container4AboutUs />
       </div>
     </div>
   );
