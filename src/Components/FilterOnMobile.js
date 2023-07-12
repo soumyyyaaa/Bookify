@@ -40,7 +40,7 @@ function FilterOnMobile() {
         </button>
         <div className="filter-container">
           <h6 className="heading-filter-on-mobile">Filter and sort</h6>
-          <hr style={{ color: "#676767" }} />
+          <hr style={{ color: "#707070" }} />
           <li
             className="filters-list-filter-on-mobile"
             style={{ marginTop: "25%" }}
@@ -259,7 +259,7 @@ function FilterOnMobile() {
               <label>Spanish (0)</label>
             </ul>
           </li>
-          <hr style={{ color: "#676767" }} />
+          <hr style={{ color: "#707070" }} />
           <button className="remove-all">Remove all</button>
           <button className="apply">Apply</button>
         </div>
@@ -270,7 +270,7 @@ function FilterOnMobile() {
             fontSize: "1rem",
             cursor: "pointer",
             fontFamily: "Josefin Sans, sans-serif",
-            color: "#676767",
+            color: "#707070",
           }}
           onClick={() => openNav()}
         >

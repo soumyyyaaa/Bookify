@@ -25,7 +25,7 @@ function Filter() {
   return (
     <div className="filter-container">
       <h6 className="heading-filter">Filter:</h6>
-      <hr style={{ color: "#676767" }} />
+      <hr style={{ color: "#707070" }} />
       <li style={{ listStyle: "none" }}>
         <div className="list-flex">
           <h6 className="heading-filter" onClick={() => handleClick(0)}>
@@ -45,7 +45,7 @@ function Filter() {
           <label>Out of Stock</label>
         </ul>
       </li>
-      <hr style={{ color: "#676767" }} />
+      <hr style={{ color: "#707070" }} />
       <li style={{ listStyle: "none" }}>
         <div className="list-flex">
           <h6 className="heading-filter" onClick={() => handleClick(1)}>
@@ -77,7 +77,7 @@ function Filter() {
           />
         </ul>
       </li>
-      <hr style={{ color: "#676767" }} />
+      <hr style={{ color: "#707070" }} />
       <li style={{ listStyle: "none" }}>
         <div className="list-flex">
           <h6 className="heading-filter" onClick={() => handleClick(2)}>
@@ -105,7 +105,7 @@ function Filter() {
           <label>Sugar Flakes(0)</label>
         </ul>
       </li>
-      <hr style={{ color: "#676767" }} />
+      <hr style={{ color: "#707070" }} />
       <li style={{ listStyle: "none" }}>
         <div className="list-flex">
           <h6 className="heading-filter" onClick={() => handleClick(3)}>
@@ -141,7 +141,7 @@ function Filter() {
           <label>Spanish (0)</label>
         </ul>
       </li>
-      <hr style={{ color: "#676767" }} />
+      <hr style={{ color: "#707070" }} />
       <li style={{ listStyle: "none" }}>
         <div className="list-flex">
           <h6 className="heading-filter" onClick={() => handleClick(4)}>
@@ -167,7 +167,7 @@ function Filter() {
           <label>Sage Isaias (0)</label>
         </ul>
       </li>
-      <hr style={{ color: "#676767" }} />
+      <hr style={{ color: "#707070" }} />
       <li style={{ listStyle: "none" }}>
         <div className="list-flex">
           <h6 className="heading-filter" onClick={() => handleClick(5)}>
@@ -193,7 +193,7 @@ function Filter() {
           <label>Paperback (0)</label>
         </ul>
       </li>
-      <hr style={{ color: "#676767" }} />
+      <hr style={{ color: "#707070" }} />
       <li style={{ listStyle: "none" }}>
         <div className="list-flex">
           <h6 className="heading-filter" onClick={() => handleClick(6)}>

@@ -27,7 +27,7 @@ function Container10Home() {
             <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
           </p>
           <h2 className="card-title">Books changed my ideology</h2>
-          <p style={{ color: "#676767", margin: "3% 0", textAlign: 'justify' }}>
+          <p style={{ color: "#707070", margin: "3% 0", textAlign: 'justify' }}>
             In this turbulent world, it can be lovely to use books as an escape,
             to read about a different world with different problems, and maybe
             forget about your own for a while. But, it's also equally cathartic
@@ -48,7 +48,7 @@ function Container10Home() {
             <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
           </p>
           <h2 className="card-title">Best writers of 19th century</h2>
-          <p style={{ color: "#676767", margin: "3% 0", textAlign: 'justify' }}>
+          <p style={{ color: "#707070", margin: "3% 0", textAlign: 'justify' }}>
             The first half of the 19th century was characterized by Romanticism,
             a literary, artistic, and intellectual movement focused on emotional
             expression. As scientific inquiry and industry became more
@@ -69,7 +69,7 @@ function Container10Home() {
             <FontAwesomeIcon icon={faCalendarDays} /> April 4, 2020
           </p>
           <h2 className="card-title">100 Best kids story books</h2>
-          <p style={{ color: "#676767", margin: "3% 0", textAlign: 'justify' }}>
+          <p style={{ color: "#707070", margin: "3% 0", textAlign: 'justify' }}>
             We're living in a golden age of young-adult literature, when books
             ostensibly written for teens are equally adored by readers of every
             generation. In the likes of Harry Potter and Katniss Everdeen,
