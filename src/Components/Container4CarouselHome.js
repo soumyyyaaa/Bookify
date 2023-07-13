@@ -72,9 +72,8 @@ function Container4CarouselHome() {
             <div className="card">
               <img
                 src={allBook1}
-                class="card-img-top"
+                class="card-img-top" width="50%"
                 alt="all-book-1"
-                width="90%"
               />
               <ul className="image-hover-icons">
                 <li>
@@ -115,7 +114,7 @@ function Container4CarouselHome() {
           </div>
           <div className="carousel-item">
             <div class="card">
-              <img src={allBook2} class="card-img-top" alt="all-book-2" />
+              <img src={allBook2} class="card-img-top" width="50%" alt="all-book-2" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -158,7 +157,7 @@ function Container4CarouselHome() {
           </div>
           <div className="carousel-item">
             <div class="card">
-              <img src={allBook3} class="card-img-top" alt="all-book-3" />
+              <img src={allBook3} class="card-img-top" width="50%" alt="all-book-3" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -198,7 +197,7 @@ function Container4CarouselHome() {
           </div>
           <div className="carousel-item">
             <div class="card">
-              <img src={allBook4} class="card-img-top" alt="all-book-4" />
+              <img src={allBook4} class="card-img-top" width="50%" alt="all-book-4" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -238,7 +237,7 @@ function Container4CarouselHome() {
           </div>
           <div className="carousel-item">
             <div class="card">
-              <img src={allBook5} class="card-img-top" alt="all-book-5" />
+              <img src={allBook5} class="card-img-top" width="50%" alt="all-book-5" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -278,7 +277,7 @@ function Container4CarouselHome() {
           </div>
           <div className="carousel-item">
             <div class="card">
-              <img src={allBook6} class="card-img-top" alt="all-book-6" />
+              <img src={allBook6} class="card-img-top" width="50%" alt="all-book-6" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -318,7 +317,7 @@ function Container4CarouselHome() {
           </div>
           <div className="carousel-item">
             <div class="card">
-              <img src={allBook7} class="card-img-top" alt="all-book-7" />
+              <img src={allBook7} class="card-img-top" width="50%" alt="all-book-7" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -358,7 +357,7 @@ function Container4CarouselHome() {
           </div>
           <div className="carousel-item">
             <div class="card">
-              <img src={allBook8} class="card-img-top" alt="all-book-8" />
+              <img src={allBook8} class="card-img-top" width="50%" alt="all-book-8" />
               <ul className="image-hover-icons">
                 <li>
                   <FontAwesomeIcon
@@ -402,6 +401,7 @@ function Container4CarouselHome() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
+          style={{display: 'none'}}
         >
           <span
             className="carousel-control-prev-icon"
@@ -414,6 +414,7 @@ function Container4CarouselHome() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
+          style={{display: 'none'}}
         >
           <span
             className="carousel-control-next-icon"
