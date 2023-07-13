@@ -27,7 +27,8 @@ import { Outlet, Link } from "react-router-dom";
 
 function Categories() {
   return (
-    <div>
+    <>
+    <div className="categories-1">
       <div className="container1-categories">
         <div className="opacity-container-categories"></div>
         <h2 className="heading-categories">Collection</h2>
@@ -752,6 +753,10 @@ function Categories() {
         </div>
       </div>
     </div>
+    <div className="categories-2">
+
+    </div>
+    </>
   );
 }
 
