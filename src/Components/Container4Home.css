@@ -93,15 +93,17 @@
     opacity: 1;
 }
 
+.container4-carousel {
+    display: none;
+}
+
 @media only screen and (max-width: 480px) {
     .container4-home {
-        padding: 8% 4%;
-        display: block;
+        display: none;
     }
     
     .card {
         text-align: center;
-        margin-bottom: 10%;
     }
  
     .card:hover .card-img-top {
@@ -119,5 +121,9 @@
 
     .card img {
         display:block;
+    }
+
+    .container4-carousel {
+        display: block;
     }
 }

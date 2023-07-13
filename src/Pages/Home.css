@@ -229,12 +229,11 @@
     }
     
     .new-arrivals {
-        width: 80%;
-        padding: 5%;
-        margin: 4% 0;
+        display: none;
     }
 
     .container5-home {
+        margin-top: 15%;
         padding: 0 4%;
         background-attachment: scroll;
         background-size: cover;
