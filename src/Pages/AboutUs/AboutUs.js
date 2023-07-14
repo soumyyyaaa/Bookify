@@ -7,14 +7,7 @@ import aboutUsImg1 from "../../Images/about-us-img1.png";
 import aboutUsImg2 from "../../Images/about-us-img2.png";
 import aboutUsImg3 from "../../Images/about-us-img3.png";
 import Container4AboutUs from "../AboutUs/Container4AboutUs";
-import teamMember1 from "../../Images/teamMember1.png";
-import teamMember2 from "../../Images/teamMember2.png";
-import teamMember3 from "../../Images/teamMember3.png";
-import teamMember4 from "../../Images/teamMember4.png";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-import { faPinterest } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import Container6AboutUs from "./Container6AboutUs";
 
 function AboutUs() {
   return (
@@ -104,117 +97,8 @@ function AboutUs() {
       <div className="container5-aboutus">
         <h1 className="heading-new-arrivals">ABOUT OUR TEAM</h1>
         <hr className="line-home" />
-        <div className="team-member-aboutus">
-          <div className="grid-item-team-member">
-            <img src={teamMember1} alt="member1" className="member-img" />
-            <ul className="image-hover-icons-team-social">
-              <FontAwesomeIcon
-                icon={faTwitter}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faFacebookF}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faPinterest}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="team-social-icons"
-                size="l"
-              />
-            </ul>
-            <h3 className="team-member-name">Jona Issac</h3>
-            <h6 style={{ color: "#707070" }}>CEO</h6>
-          </div>
-          <div className="grid-item-team-member">
-            <img src={teamMember2} alt="member2" className="member-img" />
-            <ul className="image-hover-icons-team-social">
-              <FontAwesomeIcon
-                icon={faTwitter}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faFacebookF}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faPinterest}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="team-social-icons"
-                size="l"
-              />
-            </ul>
-            <h3 className="team-member-name">Lency</h3>
-            <h6 style={{ color: "#707070" }}>Marketing Manager</h6>
-          </div>
-          <div className="grid-item-team-member">
-            <img src={teamMember3} alt="member3" className="member-img" />
-            <ul className="image-hover-icons-team-social">
-              <FontAwesomeIcon
-                icon={faTwitter}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faFacebookF}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faPinterest}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="team-social-icons"
-                size="l"
-              />
-            </ul>
-            <h3 className="team-member-name">Rony Diana</h3>
-            <h6 style={{ color: "#707070" }}>Support</h6>
-          </div>
-          <div className="grid-item-team-member">
-            <img src={teamMember4} alt="member4" className="member-img" />
-            <ul className="image-hover-icons-team-social">
-              <FontAwesomeIcon
-                icon={faTwitter}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faFacebookF}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faPinterest}
-                className="team-social-icons"
-                size="l"
-              />
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="team-social-icons"
-                size="l"
-              />
-            </ul>
-            <h3 className="team-member-name">Princy Charles</h3>
-            <h6 style={{ color: "#707070" }}>Company Supervisor</h6>
-          </div>
-        </div>
       </div>
+      <Container6AboutUs />
     </div>
   );
 }
