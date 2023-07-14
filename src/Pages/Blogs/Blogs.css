@@ -1,0 +1,120 @@
+.container1-blogs {
+  background-image: url("../../Images/brands-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  text-align: center;
+}
+
+.opacity-container-blogs {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  height: 301px;
+  padding: 0;
+}
+
+.heading-blogs {
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+  position: relative;
+  padding: 10% 0;
+}
+
+.container2-blogs {
+  padding: 8% 4% 14% 4%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5%;
+}
+
+.container2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.container2-content:hover {
+  cursor: pointer;
+}
+
+.container2-content:hover .card-title {
+  color: #d14031;
+}
+
+.read-more-blogs {
+  width: 30%;
+  border: none;
+  background-color: #d14031;
+  color: #fff;
+  padding: 2%;
+}
+
+.read-more-blogs:hover {
+  background-color: #000;
+  transition: 0.4s;
+}
+
+.container3-blogs {
+  text-align: center;
+  padding: 8% 0;
+}
+
+.next-blogs {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1.3% 2%;
+  margin: 0 1%;
+}
+
+.next-blogs:hover {
+  background-color: #d14031;
+  transition: 0.4s;
+}
+
+.container4-blogs {
+  padding: 8% 4% 0 4%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5%;
+}
+
+@media only screen and (max-width: 480px) {
+  .opacity-container-blogs {
+    height: 108px;
+  }
+
+  .heading-blogs {
+    font-size: 1.3rem;
+  }
+
+  .container2-blogs {
+    padding: 8% 4%;
+    display: block;
+  }
+  
+  .container2-content {
+    width: 100%;
+  }
+  
+  .read-more-blogs {
+    width: 40%;
+    margin-bottom: 20%;
+  }
+  
+  .container3-blogs {
+    text-align: center;
+    padding: 0 0 15% 0;
+  }
+  
+  .next-blogs {
+    padding: 1.3% 3%;
+  }
+  
+  .container4-blogs {
+    padding: 8% 4% 0 4%;
+    display: block;
+  }
+}

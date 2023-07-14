@@ -10,6 +10,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import Categories2 from './Pages/Categories/Categories2';
 import AboutUs from './Pages/AboutUs/AboutUs';
+import Blogs from './Pages/Blogs/Blogs';
+import Blogs2 from './Pages/Blogs/Blogs2';
 
 export default function App() {
   return (
@@ -20,6 +22,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/brands" element={<Brands />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs2" element={<Blogs2 />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/bestsellers" element={<BestSellers />} />
         <Route path="/categoriespage2" element={<Categories2 />} />

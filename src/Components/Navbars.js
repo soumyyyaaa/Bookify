@@ -95,11 +95,13 @@ function Navbars() {
                     >
                       About Us
                     </Link>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Blog
-                      </a>
-                    </li>
+                    <Link
+                      to="/blogs"
+                      style={{ textDecoration: "none" }}
+                      className="dropdown-item"
+                    >
+                      Blog
+                    </Link>
                     <li>
                       <a className="dropdown-item" href="#">
                         FAQ's

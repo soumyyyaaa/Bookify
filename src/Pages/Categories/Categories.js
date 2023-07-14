@@ -757,9 +757,6 @@ function Categories() {
         </div>
       </div>
     </div>
-    <div className="categories-2">
-
-    </div>
     </>
   );
 }
