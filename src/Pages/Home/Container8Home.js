@@ -1,9 +1,8 @@
-import "../Components/Container4Home.css"
-import allBook3 from "../Images/all-book-3.png";
-import allBook9 from "../Images/all-book-9.png"
-import allBook10 from "../Images/all-book-10.png"
-import allBook11 from "../Images/all-book-11.png"
-import "../Components/Container4Home.css"
+import "../Home/Container4Home.css"
+import allBook3 from "../../Images/all-book-3.png";
+import allBook9 from "../../Images/all-book-9.png"
+import allBook10 from "../../Images/all-book-10.png"
+import allBook11 from "../../Images/all-book-11.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 
 .container1-home {
-    background-image: url("../Images/home-bg-img.png");
+    background-image: url("../../Images/home-bg-img.png");
     background-size: cover;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .container5-home {
-    background-image: url("../Images/home-bg-img2.png");
+    background-image: url("../../Images/home-bg-img2.png");
     padding: 12% 0;
     background-size: cover;
     background-position: center;
@@ -126,7 +126,7 @@
 }
 
 .container7-home {
-    background-image: url("../Images/home-bg-img3.png");
+    background-image: url("../../Images/home-bg-img3.png");
     background-position: center;
     background-size: cover;
     padding: 12% 0;
@@ -157,7 +157,7 @@
 }
 
 .container9-home {
-    background-image: url("../Images/home-bg-img4.png");
+    background-image: url("../../Images/home-bg-img4.png");
     padding: 12% 0;
     background-size: cover;
     background-position: center;

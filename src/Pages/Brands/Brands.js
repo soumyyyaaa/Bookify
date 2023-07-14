@@ -1,11 +1,11 @@
-import "../Pages/Brands.css";
-import allBook1 from "../Images/all-book-1.png";
-import allBook14 from "../Images/all-book-14.png";
-import allBook13 from "../Images/all-book-13.png";
-import allBook9 from "../Images/all-book-9.png";
-import allBook12 from "../Images/all-book-12.png";
-import allBook6 from "../Images/all-book-6.png";
-import allBook7 from "../Images/all-book-7.png";
+import "../Brands/Brands.css";
+import allBook1 from "../../Images/all-book-1.png";
+import allBook14 from "../../Images/all-book-14.png";
+import allBook13 from "../../Images/all-book-13.png";
+import allBook9 from "../../Images/all-book-9.png";
+import allBook12 from "../../Images/all-book-12.png";
+import allBook6 from "../../Images/all-book-6.png";
+import allBook7 from "../../Images/all-book-7.png";
 
 function Brands() {
   return (

@@ -1,11 +1,11 @@
-import testimonial1 from "../Images/testimonial1.png";
-import testimonial2 from "../Images/testimonial2.png";
-import testimonial3 from "../Images/testimonial3.png";
+import testimonial1 from "../../Images/testimonial1.png";
+import testimonial2 from "../../Images/testimonial2.png";
+import testimonial3 from "../../Images/testimonial3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faStar as faStarR } from "@fortawesome/free-regular-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import "../Components/Container4AboutUs.css";
+import "../AboutUs/Container4AboutUs.css";
 
 library.add(faStarR);
 

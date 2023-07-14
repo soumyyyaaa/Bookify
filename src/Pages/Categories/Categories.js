@@ -1,29 +1,29 @@
-import "../Pages/Categories.css";
-import FilterOnMobile from "../Components/FilterOnMobile";
-import Filter from "../Components/Filter";
+import "../Categories/Categories.css";
+import FilterOnMobile from "../../Components/Filter/FilterOnMobile";
+import Filter from "../../Components/Filter/Filter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { faForwardStep } from "@fortawesome/free-solid-svg-icons";
-import allBook11 from "../Images/all-book-11.png";
-import allBook9 from "../Images/all-book-9.png";
-import allBook7 from "../Images/all-book-7.png";
-import allBook6 from "../Images/all-book-6.png";
-import allBook17 from "../Images/all-book-17.png";
-import allBook18 from "../Images/all-book-18.png";
-import allBook19 from "../Images/all-book-19.png";
-import allBook1 from "../Images/all-book-1.png";
-import allBook8 from "../Images/all-book-8.png";
-import allBook5 from "../Images/all-book-5.png";
-import allBook13 from "../Images/all-book-13.png";
-import allBook20 from "../Images/all-book-20.png";
-import allBook14 from "../Images/all-book-14.png";
-import allBook16 from "../Images/all-book-16.png";
-import allBook15 from "../Images/all-book-15.png";
-import allBook12 from "../Images/all-book-12.png";
-import { Outlet, Link } from "react-router-dom";
+import allBook11 from "../../Images/all-book-11.png";
+import allBook9 from "../../Images/all-book-9.png";
+import allBook7 from "../../Images/all-book-7.png";
+import allBook6 from "../../Images/all-book-6.png";
+import allBook17 from "../../Images/all-book-17.png";
+import allBook18 from "../../Images/all-book-18.png";
+import allBook19 from "../../Images/all-book-19.png";
+import allBook1 from "../../Images/all-book-1.png";
+import allBook8 from "../../Images/all-book-8.png";
+import allBook5 from "../../Images/all-book-5.png";
+import allBook13 from "../../Images/all-book-13.png";
+import allBook20 from "../../Images/all-book-20.png";
+import allBook14 from "../../Images/all-book-14.png";
+import allBook16 from "../../Images/all-book-16.png";
+import allBook15 from "../../Images/all-book-15.png";
+import allBook12 from "../../Images/all-book-12.png";
+import { Link } from "react-router-dom";
 
 function Categories() {
   return (
@@ -736,6 +736,9 @@ function Categories() {
                 <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
               </div>
             </div>
+          </div>
+          <div className="container5-categories">
+            
           </div>
           <div className="buttons-categories">
             <Link to="/categories">

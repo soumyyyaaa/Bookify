@@ -1,19 +1,19 @@
-import "../Pages/Categories.css";
-import FilterOnMobile from "../Components/FilterOnMobile";
-import Filter from "../Components/Filter";
+import "../Categories/Categories.css";
+import FilterOnMobile from "../../Components/Filter/FilterOnMobile";
+import Filter from "../../Components/Filter/Filter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { faBackwardStep } from "@fortawesome/free-solid-svg-icons";
-import allBook10 from "../Images/all-book-10.png";
-import allBook3 from "../Images/all-book-3.png";
-import allBook21 from "../Images/all-book-21.png";
-import allBook2 from "../Images/all-book-2.png";
-import allBook22 from "../Images/all-book-22.png";
-import allBook4 from "../Images/all-book-4.png";
+import allBook10 from "../../Images/all-book-10.png";
+import allBook3 from "../../Images/all-book-3.png";
+import allBook21 from "../../Images/all-book-21.png";
+import allBook2 from "../../Images/all-book-2.png";
+import allBook22 from "../../Images/all-book-22.png";
+import allBook4 from "../../Images/all-book-4.png";
 
 function Categories2() {
   return (

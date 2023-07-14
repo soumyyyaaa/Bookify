@@ -1,15 +1,15 @@
 import './App.css';
-import Header from './Components/Header';
+import Header from "../src/Components/Header"
 import Navbars from './Components/Navbars';
-import Home from './Pages/Home';
-import Categories from './Pages/Categories';
+import Home from '../src/Pages/Home/Home';
+import Categories from './Pages/Categories/Categories';
 import Footer from './Components/Footer';
-import Brands from './Pages/Brands';
-import BestSellers from './Pages/BestSellers';
+import Brands from './Pages/Brands/Brands';
+import BestSellers from './Pages/BestSeller/BestSellers';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-import Categories2 from './Pages/Categories2';
-import AboutUs from './Pages/AboutUs';
+import Categories2 from './Pages/Categories/Categories2';
+import AboutUs from './Pages/AboutUs/AboutUs';
 
 export default function App() {
   return (

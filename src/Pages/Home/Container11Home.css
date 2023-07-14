@@ -6,11 +6,6 @@
     text-align: center;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: #d14031;
-    border-radius: 100%;
-}
-
 @media only screen and (max-width: 480px) {
     .container11-home {
         padding: 8% 4%;

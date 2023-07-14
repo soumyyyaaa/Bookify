@@ -1,16 +1,15 @@
-import allBook13 from "../Images/all-book-13.png";
-import allBook15 from "../Images/all-book-15.png";
-import allBook12 from "../Images/all-book-12.png";
-import allBook16 from "../Images/all-book-16.png";
+import allBook13 from "../../Images/all-book-13.png";
+import allBook15 from "../../Images/all-book-15.png";
+import allBook12 from "../../Images/all-book-12.png";
+import allBook16 from "../../Images/all-book-16.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
-
-import "../Pages/BestSellers.css";
-import Filter from "../Components/Filter";
-import FilterOnMobile from "../Components/FilterOnMobile";
+import "../BestSeller/BestSellers.css";
+import Filter from "../../Components/Filter/Filter";
+import FilterOnMobile from "../../Components/Filter/FilterOnMobile";
 
 function BestSellers() {
   return (

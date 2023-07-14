@@ -2,17 +2,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTruckFast } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
-import "../Pages/Home.css";
-import dwayne from "../Images/dwayne.png";
-import award1 from "../Images/award-1.png";
-import award2 from "../Images/award-2.png";
-import award3 from "../Images/award-3.png";
-import award4 from "../Images/award-4.png";
-import award5 from "../Images/award-5.png";
-import Container4Home from "../Components/Container4Home";
-import Container8Home from "../Components/Container8Home";
-import Container10Home from "../Components/Container10Home";
-import Container11Home from "../Components/Container11Home";
+import "../Home/Home.css";
+import dwayne from "../../Images/dwayne.png";
+import award1 from "../../Images/award-1.png";
+import award2 from "../../Images/award-2.png";
+import award3 from "../../Images/award-3.png";
+import award4 from "../../Images/award-4.png";
+import award5 from "../../Images/award-5.png";
+import Container4Home from "./Container4Home";
+import Container8Home from "../Home/Container8Home";
+import Container10Home from "./Container10Home";
+import Container11Home from "./Container11Home";
 
 function Home() {
   return (

@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
-import "../Components/Filter.css";
+import "../Filter/Filter.css";
 
 const handleClick = (iconId) => {
   const filterNames = [

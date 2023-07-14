@@ -1,12 +1,12 @@
-import bookPublisher1 from "../Images/book-publisher1.png";
-import bookPublisher2 from "../Images/book-publisher2.png";
-import bookPublisher3 from "../Images/book-publisher3.png";
-import bookPublisher4 from "../Images/book-publisher4.png";
-import bookPublisher5 from "../Images/book-publisher5.png";
-import bookPublisher6 from "../Images/book-publisher6.png";
-import bookPublisher7 from "../Images/book-publisher7.png";
-import bookPublisher8 from "../Images/book-publisher8.png";
-import "../Components/Container11Home.css"
+import bookPublisher1 from "../../Images/book-publisher1.png";
+import bookPublisher2 from "../../Images/book-publisher2.png";
+import bookPublisher3 from "../../Images/book-publisher3.png";
+import bookPublisher4 from "../../Images/book-publisher4.png";
+import bookPublisher5 from "../../Images/book-publisher5.png";
+import bookPublisher6 from "../../Images/book-publisher6.png";
+import bookPublisher7 from "../../Images/book-publisher7.png";
+import bookPublisher8 from "../../Images/book-publisher8.png";
+import "../Home/Container11Home.css"
 
 function Container11Home() {
   return (
@@ -79,6 +79,7 @@ function Container11Home() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
+          style={{display: 'none'}}
         >
           <span
             className="carousel-control-prev-icon"
@@ -91,6 +92,7 @@ function Container11Home() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
+          style={{display: 'none'}}
         >
           <span
             className="carousel-control-next-icon"

@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import latestNews1 from "../Images/latest-news-img1.png";
-import latestNews2 from "../Images/latest-news-img2.png";
-import latestNews3 from "../Images/latest-news-img3.png";
-import "../Components/Container10Home.css"
+import latestNews1 from "../../Images/latest-news-img1.png";
+import latestNews2 from "../../Images/latest-news-img2.png";
+import latestNews3 from "../../Images/latest-news-img3.png";
+import "../Home/Container10Home.css"
 
 function Container10Home() {
   return (
