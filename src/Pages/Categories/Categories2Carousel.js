@@ -1,43 +1,61 @@
-import "../Categories/Categories.css";
-import FilterOnMobile from "../../Components/Filter/FilterOnMobile";
-import Filter from "../../Components/Filter/Filter";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
-import { faBackwardStep } from "@fortawesome/free-solid-svg-icons";
 import allBook10 from "../../Images/all-book-10.png";
 import allBook3 from "../../Images/all-book-3.png";
 import allBook21 from "../../Images/all-book-21.png";
 import allBook2 from "../../Images/all-book-2.png";
 import allBook22 from "../../Images/all-book-22.png";
 import allBook4 from "../../Images/all-book-4.png";
-import Categories2Carousel from "./Categories2Carousel";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
 
-function Categories2() {
+function Categories2Carousel() {
   return (
     <div>
-      <div className="container1-categories">
-        <div className="opacity-container-categories"></div>
-        <h2 className="heading-categories">Collection</h2>
-      </div>
-      <div className="container2-categories">
-        <div className="filter-desktop">
-          <Filter />
+      <div id="carouselExampleIndicators" className="carousel slide">
+        <div className="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            className="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
         </div>
-        <div className="on-mobile-display">
-          <FilterOnMobile />
-        </div>
-        <div className="container3-categories">
-          <h1
-            className="heading-bestsellers"
-            style={{ padding: "0", textAlign: "center", margin: "5% 0" }}
-          >
-            Products
-          </h1>
-          <div className="container4-categories">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <div className="card">
               <img src={allBook10} className="card-img-top" alt="all-book-10" />
               <ul className="image-hover-icons">
@@ -81,6 +99,8 @@ function Categories2() {
                 <FontAwesomeIcon icon={faStar} />
               </div>
             </div>
+          </div>
+          <div className="carousel-item">
             <div className="card">
               <img src={allBook3} className="card-img-top" alt="all-book-3" />
               <ul className="image-hover-icons">
@@ -124,6 +144,8 @@ function Categories2() {
                 <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
               </div>
             </div>
+          </div>
+          <div className="carousel-item">
             <div className="card">
               <img src={allBook21} className="card-img-top" alt="all-book-21" />
               <ul className="image-hover-icons">
@@ -167,6 +189,8 @@ function Categories2() {
                 <FontAwesomeIcon icon={faStar} />
               </div>
             </div>
+          </div>
+          <div className="carousel-item">
             <div className="card">
               <img src={allBook2} className="card-img-top" alt="all-book-2" />
               <ul className="image-hover-icons">
@@ -210,6 +234,8 @@ function Categories2() {
                 <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
               </div>
             </div>
+          </div>
+          <div className="carousel-item">
             <div className="card">
               <img src={allBook22} className="card-img-top" alt="all-book-22" />
               <ul className="image-hover-icons">
@@ -253,6 +279,8 @@ function Categories2() {
                 <FontAwesomeIcon icon={faStar} style={{ color: "#000" }} />
               </div>
             </div>
+          </div>
+          <div className="carousel-item">
             <div className="card">
               <img src={allBook4} className="card-img-top" alt="all-book-4" />
               <ul className="image-hover-icons">
@@ -297,26 +325,36 @@ function Categories2() {
               </div>
             </div>
           </div>
-          <div className="container5-categories">
-            <Categories2Carousel />
-          </div>
-          <div className="buttons-categories">
-            <Link to="/categories">
-              <button className="next-categories">
-                <FontAwesomeIcon icon={faBackwardStep} />
-              </button>
-            </Link>
-            <Link to="/categories">
-              <button className="next-categories">1</button>
-            </Link>
-            <Link to="/categoriespage2">
-              <button className="next-categories">2</button>
-            </Link>
-          </div>
         </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+          style={{ display: "none" }}
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+          style={{ display: "none" }}
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );
 }
 
-export default Categories2;
+export default Categories2Carousel;
