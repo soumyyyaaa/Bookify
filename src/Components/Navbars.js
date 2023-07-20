@@ -109,11 +109,13 @@ function Navbars() {
                     >
                       FAQ's
                     </Link>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Contact Us
-                      </a>
-                    </li>
+                    <Link
+                      to="/contactus"
+                      style={{ textDecoration: "none" }}
+                      className="dropdown-item"
+                    >
+                      Contact Us
+                    </Link>
                   </ul>
                 </li>
               </ul>

@@ -13,6 +13,7 @@ import AboutUs from './Pages/AboutUs/AboutUs';
 import Blogs from './Pages/Blogs/Blogs';
 import Blogs2 from './Pages/Blogs/Blogs2';
 import Faq from './Pages/FAQ/Faq';
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/brands" element={<Brands />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/contactus" element={<ContactUs />} />
         <Route path="/blogs2" element={<Blogs2 />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/bestsellers" element={<BestSellers />} />
