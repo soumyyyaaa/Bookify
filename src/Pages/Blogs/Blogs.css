@@ -1,26 +1,3 @@
-.container1-blogs {
-  background-image: url("../../Images/brands-bg.png");
-  background-position: center;
-  background-size: cover;
-  padding: 0;
-  text-align: center;
-}
-
-.opacity-container-blogs {
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  height: 301px;
-  padding: 0;
-}
-
-.heading-blogs {
-  color: #000;
-  font-family: "Cormorant Garamond", serif;
-  position: relative;
-  padding: 10% 0;
-}
-
 .container2-blogs {
   padding: 8% 4% 14% 4%;
   display: grid;
@@ -79,6 +56,10 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 5%;
+}
+
+.sans-serif-font {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 @media only screen and (max-width: 480px) {

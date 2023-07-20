@@ -38,7 +38,7 @@ function Container6AboutUs() {
             />
           </ul>
           <h3 className="team-member-name">Jona Issac</h3>
-          <h6 style={{ color: "#707070" }}>CEO</h6>
+          <h6 style={{ color: "#707070" }} className="sans-serif-font">CEO</h6>
         </div>
         <div className="grid-item-team-member">
           <img src={teamMember2} alt="member2" className="member-img" />
@@ -65,7 +65,7 @@ function Container6AboutUs() {
             />
           </ul>
           <h3 className="team-member-name">Lency</h3>
-          <h6 style={{ color: "#707070" }}>Marketing Manager</h6>
+          <h6 style={{ color: "#707070" }} className="sans-serif-font">Marketing Manager</h6>
         </div>
         <div className="grid-item-team-member">
           <img src={teamMember3} alt="member3" className="member-img" />
@@ -92,7 +92,7 @@ function Container6AboutUs() {
             />
           </ul>
           <h3 className="team-member-name">Rony Diana</h3>
-          <h6 style={{ color: "#707070" }}>Support</h6>
+          <h6 style={{ color: "#707070" }} className="sans-serif-font">Support</h6>
         </div>
         <div className="grid-item-team-member">
           <img src={teamMember4} alt="member4" className="member-img" />
@@ -119,7 +119,7 @@ function Container6AboutUs() {
             />
           </ul>
           <h3 className="team-member-name">Princy Charles</h3>
-          <h6 style={{ color: "#707070" }}>Company Supervisor</h6>
+          <h6 style={{ color: "#707070" }} className="sans-serif-font">Company Supervisor</h6>
         </div>
       </div>
       <div className="container7-aboutus">
@@ -179,7 +179,7 @@ function Container6AboutUs() {
                   />
                 </ul>
                 <h3 className="team-member-name">Jona Issac</h3>
-                <h6 style={{ color: "#707070" }}>CEO</h6>
+                <h6 style={{ color: "#707070" }} className="sans-serif-font">CEO</h6>
               </div>
             </div>
             <div className="carousel-item">
@@ -208,7 +208,7 @@ function Container6AboutUs() {
                   />
                 </ul>
                 <h3 className="team-member-name">Lency</h3>
-                <h6 style={{ color: "#707070" }}>Marketing Manager</h6>
+                <h6 style={{ color: "#707070" }} className="sans-serif-font">Marketing Manager</h6>
               </div>
             </div>
             <div className="carousel-item">
@@ -237,7 +237,7 @@ function Container6AboutUs() {
                   />
                 </ul>
                 <h3 className="team-member-name">Rony Diana</h3>
-                <h6 style={{ color: "#707070" }}>Support</h6>
+                <h6 style={{ color: "#707070" }} className="sans-serif-font">Support</h6>
               </div>
             </div>
             <div className="carousel-item">
@@ -266,7 +266,7 @@ function Container6AboutUs() {
                   />
                 </ul>
                 <h3 className="team-member-name">Princy Charles</h3>
-                <h6 style={{ color: "#707070" }}>Company Supervisor</h6>
+                <h6 style={{ color: "#707070" }} className="sans-serif-font">Company Supervisor</h6>
               </div>
             </div>
           </div>

@@ -12,6 +12,7 @@ import Categories2 from './Pages/Categories/Categories2';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Blogs from './Pages/Blogs/Blogs';
 import Blogs2 from './Pages/Blogs/Blogs2';
+import Faq from './Pages/FAQ/Faq';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/categories" element={<Categories />} />
         <Route path="/brands" element={<Brands />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/blogs2" element={<Blogs2 />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/bestsellers" element={<BestSellers />} />

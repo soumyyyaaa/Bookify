@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+
+.container1-faq {
+    margin: 5% 7%;
+}
+
+.heading-faq {
+    color: #000;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.line-faq {
+    width: 5%;
+    text-align: center;
+    border: 3px solid #d14031;
+    margin: 1% auto;
+    opacity: 1;
+}
+
+.container2-faq {
+    padding: 0 7% 5% 7%;
+}
+
+.faq-questions {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 3% 0;
+    padding: 2%;
+    border: none;
+    background-color: #d14031;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.faq-questions:hover {
+    background-color: #000;
+    transition: .4s;
+}
+
+.faq-answer {
+    padding: 0 2%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    text-align: justify;
+}
+
+.a0 {
+    display: none;
+}
+
+.a1 {
+    display: none;
+}
+
+.a2 {
+    display: none;
+}
+
+.a3 {
+    display: none;
+}
+
+.a4 {
+    display: none;
+}
+
+.a5 {
+    display: none;
+}
+
+.a6 {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .container1-faq {
+        margin: 8% 4%;
+    }
+ 
+    .line-faq {
+        width: 10%;
+    }
+    
+    .container2-faq {
+        padding: 2% 4% 10% 4%;
+    }
+    
+    .faq-questions {
+        margin: 8% 0;
+        padding: 3%;
+        font-size: 1rem;
+    }
+    
+}

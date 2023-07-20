@@ -12,9 +12,9 @@ import Container6AboutUs from "./Container6AboutUs";
 function AboutUs() {
   return (
     <div>
-      <div className="container1-aboutus">
-        <div className="opacity-container-aboutus"></div>
-        <h2 className="heading-aboutus">About Us</h2>
+      <div className="container-pages">
+        <div className="opacity-container-pages"></div>
+        <h2 className="heading-pages">About Us</h2>
       </div>
       <div className="container2-aboutus">
         <div className="container-grid-aboutus">

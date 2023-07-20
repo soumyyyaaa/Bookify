@@ -1,4 +1,4 @@
-.container1-aboutus {
+.container-pages {
   background-image: url("../../Images/brands-bg.png");
   background-position: center;
   background-size: cover;
@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.opacity-container-aboutus {
+.opacity-container-pages {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -14,7 +14,7 @@
   padding: 0;
 }
 
-.heading-aboutus {
+.heading-pages {
   color: #000;
   font-family: "Cormorant Garamond", serif;
   position: relative;
@@ -70,11 +70,11 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .opacity-container-aboutus {
+  .opacity-container-pages {
     height: 108px;
   }
 
-  .heading-aboutus {
+  .heading-pages {
     font-size: 1.3rem;
   }
 
