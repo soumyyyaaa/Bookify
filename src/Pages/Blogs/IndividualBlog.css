@@ -44,3 +44,27 @@
 .back-to-blog-button:hover {
     color: #d14031;
 }
+
+@media only screen and (max-width: 480px) {
+    .individual-blog-container {
+        padding: 8% 4%;
+        text-align: center;
+    }
+    
+    .individual-blog-heading {
+        font-size: 1.5rem;
+    }
+
+    .share-button {
+        width: 30%;
+    }
+
+    .individual-blog-content {
+        font-size: 1rem;
+    }
+    
+    .back-to-blog-button {
+        margin-top: 5%;
+        width: 35%;
+    }
+}
