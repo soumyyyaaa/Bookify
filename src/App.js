@@ -14,6 +14,14 @@ import Blogs from './Pages/Blogs/Blogs';
 import Blogs2 from './Pages/Blogs/Blogs2';
 import Faq from './Pages/FAQ/Faq';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import Bcmi from './Pages/Blogs/Bcmi';
+import Bcnw from './Pages/Blogs/Bcnw';
+import Bksb from './Pages/Blogs/Bksb';
+import Ncoh from './Pages/Blogs/Ncoh';
+import T5asc from './Pages/Blogs/T5asc';
+import Bwo19c from './Pages/Blogs/Bwo19c';
+import Wpbab from './Pages/Blogs/Wpbab';
+import Bbfbl from './Pages/Blogs/Bbfbl';
 
 export default function App() {
   return (
@@ -29,6 +37,14 @@ export default function App() {
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/blogs2" element={<Blogs2 />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/bcmi" element={<Bcmi />} />
+        <Route path="/bwo19c" element={<Bwo19c />} />
+        <Route path="/bksb" element={<Bksb />} />
+        <Route path="/bcnw" element={<Bcnw />} />
+        <Route path="/ncoh" element={<Ncoh />} />
+        <Route path="/t5asc" element={<T5asc />} />
+        <Route path="/wpbab" element={<Wpbab />} />
+        <Route path="/bbfbl" element={<Bbfbl />} />
         <Route path="/bestsellers" element={<BestSellers />} />
         <Route path="/categoriespage2" element={<Categories2 />} />
       </Routes>

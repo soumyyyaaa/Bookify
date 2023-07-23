@@ -15,6 +15,7 @@ function Blogs2() {
         <h2 className="heading-blogs">News</h2>
       </div>
       <div className="container4-blogs">
+      <Link to="/wpbab" style={{ textDecoration: "none" }}>
         <div className="container2-content">
           <img src={blogs7} alt="blogs 7" />
           <p style={{ margin: "3% 0" }}>
@@ -29,6 +30,8 @@ function Blogs2() {
           </p>
           <button className="read-more-blogs">Read More</button>
         </div>
+        </Link>
+        <Link to="/bbfbl" style={{ textDecoration: "none" }}>
         <div className="container2-content">
           <img src={blogs8} alt="blogs 8" />
           <p style={{ margin: "3% 0" }}>
@@ -42,6 +45,7 @@ function Blogs2() {
           </p>
           <button className="read-more-blogs">Read More</button>
         </div>
+        </Link>
       </div>
       <div className="container3-blogs">
         <Link to="/blogs">

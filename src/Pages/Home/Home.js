@@ -108,7 +108,7 @@ function Home() {
           <h1 className="heading-home">30% Discount On Books Learn Language</h1>
           <p
             className="special-offers-description"
-            style={{ color: "#676767" }}
+            style={{ color: "#707070" }}
           >
             Online shopping for Language Learning & Teaching from a great
             selection at Books ... Language, Linguistics & Writing ... vashista
@@ -126,7 +126,7 @@ function Home() {
         <h1 className="heading-home" style={{ color: "#134683" }}>
           Wonderful Gifts
         </h1>
-        <h5 style={{ color: "#676767" }}>
+        <h5 style={{ color: "#707070" }}>
           Give your family and friends a book
         </h5>
         <button className="shop-now shop-now-container9">Shop Now</button>
@@ -137,7 +137,7 @@ function Home() {
         <h1 className="heading-home heading-subscribe">
           SUBSCRIBE TO OUR NEWSLETTER
         </h1>
-        <p style={{ color: "#676767", margin: "3% auto" }}>
+        <p style={{ color: "#707070", margin: "3% auto" }}>
           Enter your email address to receive regular updates, as well as news
           on upcoming events and speciic offers.
         </p>
