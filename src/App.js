@@ -22,6 +22,8 @@ import T5asc from './Pages/Blogs/T5asc';
 import Bwo19c from './Pages/Blogs/Bwo19c';
 import Wpbab from './Pages/Blogs/Wpbab';
 import Bbfbl from './Pages/Blogs/Bbfbl';
+import Information from './Components/Footer/Information';
+import Search from './Components/Footer/Search';
 
 export default function App() {
   return (
@@ -44,7 +46,9 @@ export default function App() {
         <Route path="/ncoh" element={<Ncoh />} />
         <Route path="/t5asc" element={<T5asc />} />
         <Route path="/wpbab" element={<Wpbab />} />
+        <Route path="/information" element={<Information />} />
         <Route path="/bbfbl" element={<Bbfbl />} />
+        <Route path="/search" element={<Search />} />
         <Route path="/bestsellers" element={<BestSellers />} />
         <Route path="/categoriespage2" element={<Categories2 />} />
       </Routes>
