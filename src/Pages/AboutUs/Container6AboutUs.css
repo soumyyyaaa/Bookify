@@ -1,146 +1,146 @@
 .container6-aboutus {
-  padding: 0 2% 6% 2%;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  text-align: center;
+    padding: 0 2% 6% 2%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
 }
 
 .team-member-name {
-  margin: 5% 0;
-  font-family: "Cormorant Garamond", serif;
+    margin: 5% 0;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .grid-item-team-member {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .grid-item-team-member:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 75%;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.grid-item-team-member:hover::before {
-  background-color: rgba(255, 255, 255, 0.5);
-  transition: 0.5s linear all;
-}
-
-.grid-item-team-member img {
-  display: block;
-}
-
-.grid-item-team-member .image-hover-icons-team-social {
-  position: relative;
-  top: -6%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transition: 0.5s linear all;
-  opacity: 0;
-}
-
-.grid-item-team-member:hover .image-hover-icons-team-social {
-  opacity: 1;
-}
-
-.team-social-icons {
-  background-color: #d14031;
-  color: #fff;
-  margin: 0 2%;
-  padding: 3%;
-  cursor: pointer;
-}
-
-.team-social-icons:hover {
-  background-color: #000;
-  color: #d14031;
-}
-
-.member-img {
-  width: 90%;
-}
-
-.container7-aboutus {
-  display: none;
-}
-
-@media only screen and (max-width: 480px) {
-  .container6-aboutus {
-    display: none;
-  }
-
-  .container7-aboutus {
-    display: block;
-    text-align: center;
-    padding: 0% 4% 20% 4%;
-  }
-
-  .team-member-name {
-    margin-bottom:5%;
-    margin-top: 0;
-    font-family: "Cormorant Garamond", serif;
-  }
-
-  .grid-item-team-member {
-    position: relative;
-    width: 100%;
-  }
-
-  .grid-item-team-member:before {
     content: "";
     position: absolute;
     width: 100%;
-    height: 78%;
+    height: 75%;
     top: 0;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0);
-  }
+}
 
-  .grid-item-team-member:hover::before {
+.grid-item-team-member:hover::before {
     background-color: rgba(255, 255, 255, 0.5);
     transition: 0.5s linear all;
-  }
+}
 
-  .grid-item-team-member img {
+.grid-item-team-member img {
     display: block;
-  }
+}
 
-  .grid-item-team-member .image-hover-icons-team-social {
+.grid-item-team-member .image-hover-icons-team-social {
     position: relative;
-    top: -25px;
-    left: 45%;
+    top: -6%;
+    left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transition: 0.5s linear all;
     opacity: 0;
-  }
+}
 
-  .grid-item-team-member:hover .image-hover-icons-team-social {
+.grid-item-team-member:hover .image-hover-icons-team-social {
     opacity: 1;
-  }
+}
 
-  .team-social-icons {
+.team-social-icons {
     background-color: #d14031;
     color: #fff;
     margin: 0 2%;
     padding: 3%;
     cursor: pointer;
-  }
+}
 
-  .team-social-icons:hover {
+.team-social-icons:hover {
     background-color: #000;
     color: #d14031;
-  }
+}
 
-  .member-img {
-    width: 100%;
-    margin-top: 15%;
-  }
+.member-img {
+    width: 90%;
+}
+
+.container7-aboutus {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .container6-aboutus {
+        display: none;
+    }
+
+    .container7-aboutus {
+        display: block;
+        text-align: center;
+        padding: 0% 4% 20% 4%;
+    }
+
+    .team-member-name {
+        margin-bottom: 5%;
+        margin-top: 0;
+        font-family: "Cormorant Garamond", serif;
+    }
+
+    .grid-item-team-member {
+        position: relative;
+        width: 100%;
+    }
+
+    .grid-item-team-member:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 78%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .grid-item-team-member:hover::before {
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: 0.5s linear all;
+    }
+
+    .grid-item-team-member img {
+        display: block;
+    }
+
+    .grid-item-team-member .image-hover-icons-team-social {
+        position: relative;
+        top: -25px;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transition: 0.5s linear all;
+        opacity: 0;
+    }
+
+    .grid-item-team-member:hover .image-hover-icons-team-social {
+        opacity: 1;
+    }
+
+    .team-social-icons {
+        background-color: #d14031;
+        color: #fff;
+        margin: 0 2%;
+        padding: 3%;
+        cursor: pointer;
+    }
+
+    .team-social-icons:hover {
+        background-color: #000;
+        color: #d14031;
+    }
+
+    .member-img {
+        width: 100%;
+        margin-top: 15%;
+    }
 }

@@ -29,7 +29,7 @@
 }
 
 .contact-us-heading {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     color: #000;
 }
 
@@ -39,7 +39,7 @@
 
 .contact-us-para {
     color: #707070;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     margin-bottom: 0;
 }
 
@@ -56,7 +56,7 @@
 .heading-contact-us {
     color: #000;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .line-contact-us {
@@ -76,7 +76,7 @@
     margin-top: 3%;
     padding: 2%;
     border: 1px groove #707070 !;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #707070;
 }
 
@@ -103,15 +103,15 @@
         padding: 8% 4%;
         display: block;
     }
-    
+
     .contact-us-box {
         margin-bottom: 10%;
     }
-    
+
     .container2-contact-us {
         padding: 2% 4% 8% 4%;
     }
-    
+
     .contact-us-form {
         margin-top: 10%;
     }

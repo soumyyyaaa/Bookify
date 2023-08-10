@@ -1,127 +1,126 @@
 .container-pages {
-  background-image: url("../../Images/brands-bg.png");
-  background-position: center;
-  background-size: cover;
-  padding: 0;
-  text-align: center;
+    background-image: url("../../Images/brands-bg.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    text-align: center;
 }
 
 .opacity-container-pages {
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  height: 343px;
-  padding: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    height: 343px;
+    padding: 0;
 }
 
 .heading-pages {
-  color: #000;
-  font-family: "Cormorant Garamond", serif;
-  position: relative;
-  padding: 10% 0;
+    color: #000;
+    font-family: "Cormorant Garamond", serif;
+    position: relative;
+    padding: 10% 0;
 }
 
 .container2-aboutus {
-  padding: 8% 4% 18% 4%;
+    padding: 8% 4% 18% 4%;
 }
 
 .container-grid-aboutus {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 5%;
-  align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+    align-items: center;
 }
 
 .sub-heading-aboutus {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
-  color: #000;
-  font-size: 2.5rem;
-  margin: 2% 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 2.5rem;
+    margin: 2% 0;
 }
 
 .para-aboutus {
-  font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .container3-aboutus {
-  background-color: #fdefe1;
-  padding: 6% 4%;
+    background-color: #fdefe1;
+    padding: 6% 4%;
 }
 
 .image-aboutus-hidden {
-  display: none;
+    display: none;
 }
 
 .icon-center {
-  color: #d14031;
+    color: #d14031;
 }
 
 .grid-item {
-  text-align: left;
+    text-align: left;
 }
 
 .grid-item-right {
-  text-align: right;
+    text-align: right;
 }
 
 .container5-aboutus {
-  padding: 6% 4%;
+    padding: 6% 4%;
 }
 
 @media only screen and (max-width: 480px) {
-  .opacity-container-pages {
-    height: 108px;
-  }
+    .opacity-container-pages {
+        height: 108px;
+    }
 
-  .heading-pages {
-    font-size: 1.3rem;
-  }
+    .heading-pages {
+        font-size: 1.3rem;
+    }
 
-  .container2-aboutus {
-    padding: 8% 4% 0 4%;
-  }
+    .container2-aboutus {
+        padding: 8% 4% 0 4%;
+    }
 
-  .container-grid-aboutus {
-    display: block;
-  }
+    .container-grid-aboutus {
+        display: block;
+    }
 
-  .grid-item {
-    text-align: center;
-  }
-  
-  .grid-item-right {
-    text-align: center;
-  }
+    .grid-item {
+        text-align: center;
+    }
 
-  .sub-heading-aboutus {
-    font-size: 1.5rem;
-  }
+    .grid-item-right {
+        text-align: center;
+    }
 
-  .para-aboutus {
-    margin-bottom: 20%;
-  }
+    .sub-heading-aboutus {
+        font-size: 1.5rem;
+    }
 
-  .container3-aboutus {
-    background-color: #fdefe1;
-    padding: 8% 4%;
-  }
+    .para-aboutus {
+        margin-bottom: 20%;
+    }
 
-  .image-aboutus-hidden {
-    display: block;
-  }
+    .container3-aboutus {
+        background-color: #fdefe1;
+        padding: 8% 4%;
+    }
 
-  .image-aboutus {
-    display: none;
-  }
+    .image-aboutus-hidden {
+        display: block;
+    }
 
-  .icon-center {
-    text-align: center;
-    margin-top: 7%;
-  }
+    .image-aboutus {
+        display: none;
+    }
 
-  .container5-aboutus {
-    padding: 8% 4% 0 4%;
-  }
-  
+    .icon-center {
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    .container5-aboutus {
+        padding: 8% 4% 0 4%;
+    }
 }

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
 
 .container1-home {
     background-image: url("../../Images/home-bg-img.png");
@@ -10,7 +10,7 @@
     padding: 15% 7%;
     text-align: left;
     width: 55%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .year-end-sale {
@@ -21,7 +21,7 @@
 
 .heading-home {
     color: #d14031;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -35,7 +35,7 @@
 
 .shop-now:hover {
     background-color: #000;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .container2-home {
@@ -60,7 +60,7 @@
 .heading-new-arrivals {
     color: #000;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .line-home {
@@ -141,19 +141,19 @@
 
 .container7-shop-now:hover {
     background-color: #d14031;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .special-offers-text {
     width: 50%;
     text-align: left;
-    margin-left: 40%
+    margin-left: 40%;
 }
 
 .special-offers {
     color: #707070;
     font-weight: 600;
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 .container9-home {
@@ -192,11 +192,11 @@
         text-align: center;
         width: 100%;
     }
-    
+
     .year-end-sale {
         font-size: 1.5rem;
     }
-    
+
     .heading-home {
         font-size: 2rem;
     }
@@ -222,12 +222,12 @@
     .container3-home {
         padding: 8% 4%;
     }
-    
+
     .line-home {
         border: 2px solid #d14031;
         margin-bottom: 5%;
     }
-    
+
     .new-arrivals {
         display: none;
     }
@@ -262,7 +262,7 @@
     .container6-home {
         padding: 8% 4%;
     }
-    
+
     .best-author {
         margin: 6% 0 2% 0;
         display: flex;
@@ -270,10 +270,10 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
-    
+
     .best-author-image {
         width: 80%;
-        padding: 0% 0% 5% 0
+        padding: 0% 0% 5% 0;
     }
 
     .best-author-text {
@@ -302,7 +302,7 @@
         margin-top: 4%;
         margin-bottom: 6%;
     }
-    
+
     .container7-shop-now {
         padding: 2% 9%;
     }
@@ -335,5 +335,4 @@
     .home-input {
         width: 60%;
     }
-    
 }

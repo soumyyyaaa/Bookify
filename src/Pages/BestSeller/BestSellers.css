@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap");
 
 .container1-bestsellers {
     background-image: url("../../Images/brands-bg.png");
@@ -19,7 +19,7 @@
 
 .heading-bestsellers {
     color: #000;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     position: relative;
     padding: 10% 0;
 }
@@ -53,21 +53,20 @@
     .opacity-container-bestsellers {
         height: 108px;
     }
-    
+
     .heading-bestsellers {
         font-size: 1.3rem;
     }
-    
+
     .container2-bestsellers {
         display: block;
     }
-    
+
     .container3-bestsellers {
         width: 100%;
         text-align: center;
     }
-    
-    
+
     .container4-bestsellers {
         display: block;
         padding: 3% 4% 8% 4%;

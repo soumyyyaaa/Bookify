@@ -11,7 +11,7 @@
 
 .testimonial-aboutus {
     margin: 4% auto;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     width: 50%;
 }
 
@@ -31,22 +31,21 @@
     .container4-aboutus {
         padding: 8% 0;
     }
-  
+
     .testimonial-aboutus {
         margin: 8% auto;
         width: 100%;
     }
-    
+
     .testimonial-name-aboutus {
         color: #d14031;
         margin: 4% 0 3% 0;
     }
-    
+
     .carousel-indicators [data-bs-target] {
         background-color: #d14031 !important;
         border-radius: 100% !important;
         height: 10px !important;
         width: 10px !important;
     }
-    
 }

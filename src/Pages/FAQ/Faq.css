@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap");
 
 .container1-faq {
     margin: 5% 7%;
@@ -7,7 +7,7 @@
 .heading-faq {
     color: #000;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .line-faq {
@@ -31,19 +31,19 @@
     border: none;
     background-color: #d14031;
     color: #fff;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-size: 1.3rem;
 }
 
 .faq-questions:hover {
     background-color: #000;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .faq-answer {
     padding: 0 2%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     margin: 0;
     text-align: justify;
 }
@@ -80,19 +80,18 @@
     .container1-faq {
         margin: 8% 4%;
     }
- 
+
     .line-faq {
         width: 10%;
     }
-    
+
     .container2-faq {
         padding: 2% 4% 10% 4%;
     }
-    
+
     .faq-questions {
         margin: 8% 0;
         padding: 3%;
         font-size: 1rem;
     }
-    
 }

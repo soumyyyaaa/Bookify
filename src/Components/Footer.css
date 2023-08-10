@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
 
 .footer-container {
     padding: 5% 2% 2% 2%;
@@ -15,14 +15,14 @@
 
 .heading-footer {
     color: #d14031;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 2.2rem;
     margin-bottom: 7%;
     font-weight: 700;
 }
 
 .footer-sub-heading {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 1.7rem;
     margin-bottom: 10%;
 }
@@ -35,7 +35,7 @@
 .footer-email:hover {
     color: #d14031;
     cursor: pointer;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 }
 
 .footer-search-panel {
@@ -50,7 +50,7 @@
 .footer-search-panel li:hover {
     color: #d14031;
     cursor: pointer;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 }
 
 .footer-icon-div {
@@ -64,7 +64,7 @@
 
 .footer-icons:hover {
     color: #d14031;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
     cursor: pointer;
 }
 
@@ -72,15 +72,15 @@
     .footer-container {
         padding: 8% 4%;
     }
-    
+
     .footer-grid {
         display: block;
     }
-    
+
     .heading-footer {
         font-size: 2rem;
     }
-    
+
     .footer-sub-heading {
         font-size: 1.5rem;
         margin-bottom: 0;
@@ -91,9 +91,8 @@
         margin: 10% auto;
         text-align: center;
     }
-    
+
     .footer-icons {
         margin: 0 5%;
     }
- 
 }

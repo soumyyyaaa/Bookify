@@ -1,99 +1,99 @@
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #fff;
-  overflow-x: hidden;
-  padding-top: 0;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 0;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  background: none;
-  border: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    background: none;
+    border: none;
 }
 
 #main {
-  text-align: center;
-  margin-top: 8%;
+    text-align: center;
+    margin-top: 8%;
 }
 
 .availability-items-mobile {
-  display: none;
+    display: none;
 }
 
 .price-range-items-mobile {
-  display: none;
+    display: none;
 }
 
 .product-type-items-mobile {
-  display: none;
+    display: none;
 }
 
 .more-filters-items-mobile {
-  display: none;
+    display: none;
 }
 
 .brand-items-mobile {
-  display: none;
+    display: none;
 }
 
 .format-items-mobile {
-  display: none;
+    display: none;
 }
 
 .language-items-mobile {
-  display: none;
+    display: none;
 }
 
 .heading-filter-on-mobile {
-  font-size: 1rem;
-  text-align: center;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .heading-filter-on-mobile:hover {
-  color: #d14031;
-  cursor: pointer;
+    color: #d14031;
+    cursor: pointer;
 }
 
 .filters-list-filter-on-mobile {
-  list-style: none;
-  margin: 15% 0;
+    list-style: none;
+    margin: 15% 0;
 }
 
 .remove-all {
-  margin: 20% 5%;
-  font-family: "Josefin Sans", sans-serif;
-  border: none;
-  background: none;
-  padding: 3% 8%;
+    margin: 20% 5%;
+    font-family: "Josefin Sans", sans-serif;
+    border: none;
+    background: none;
+    padding: 3% 8%;
 }
 
 .remove-all:hover {
-  color: #d14031;
+    color: #d14031;
 }
 
 .apply {
-  border: none;
-  background-color: #d14031;
-  color: #fff;
-  padding: 3% 10%;
+    border: none;
+    background-color: #d14031;
+    color: #fff;
+    padding: 3% 10%;
 }

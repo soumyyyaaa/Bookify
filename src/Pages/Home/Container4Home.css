@@ -19,7 +19,7 @@
 
 .card-title {
     color: #000;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
 }
 
@@ -57,27 +57,29 @@
 }
 
 .card {
-    position: relative;  
-    width:100%;
+    position: relative;
+    width: 100%;
 }
 
 .card:before {
-    content:"";
-    position:absolute;
-    width:100%;
-    height:78%;
-    top:0;left:0;right:0;
-    background-color:rgba(0,0,0,0);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 78%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .card:hover::before {
-    background-color:rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     transition-timing-function: linear;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .card img {
-    display:block;
+    display: block;
 }
 
 .card .image-hover-icons {
@@ -86,10 +88,10 @@
     left: 85%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    opacity:0;
-} 
+    opacity: 0;
+}
 
-.card:hover .image-hover-icons {   
+.card:hover .image-hover-icons {
     opacity: 1;
 }
 
@@ -101,7 +103,7 @@
     .container4-home {
         display: none;
     }
-    
+
     .card {
         padding: 0 5%;
         margin-bottom: 0;
@@ -110,22 +112,22 @@
     .card-body {
         text-align: center;
     }
- 
+
     .card:hover .card-img-top {
-        transform: scale(1.0);
+        transform: scale(1);
     }
-    
+
     .container8-home {
         padding: 8% 4%;
         display: block;
     }
 
     .card:before {
-        height:79%;
+        height: 79%;
     }
 
     .card img {
-        display:block;
+        display: block;
     }
 
     .container4-carousel {
@@ -138,6 +140,6 @@
         left: 80%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        opacity:0;
-    } 
+        opacity: 0;
+    }
 }
