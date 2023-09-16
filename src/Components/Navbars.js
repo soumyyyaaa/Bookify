@@ -34,11 +34,13 @@ function Navbars() {
                         size="lg"
                         className="icons-header-navbar"
                     />
-                    <FontAwesomeIcon
-                        icon={faUser}
-                        size="lg"
-                        className="icons-header-navbar"
-                    />
+                    <Link to="/login" style={{ color: "#000" }}>
+                        <FontAwesomeIcon
+                            icon={faUser}
+                            size="lg"
+                            className="icons-header-navbar"
+                        />
+                    </Link>
                     <div
                         className="offcanvas offcanvas-end"
                         tabIndex="-1"
