@@ -24,8 +24,8 @@ function Login() {
                 <button className="sign-in">Sign In</button>
                 <hr />
                 <div className="login-btn">
-                    <span className="login-buttons">Forgot Your Password?</span>
-                    <span className="login-buttons">Create Account</span>
+                    <p className="login-buttons">Forgot Your Password?</p>
+                    <p className="login-buttons">Create Account</p>
                 </div>
             </form>
         </>

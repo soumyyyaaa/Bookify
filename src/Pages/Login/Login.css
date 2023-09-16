@@ -31,6 +31,7 @@
     width: 100%;
     margin-top: 5%;
     padding: 2%;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .login-fields:hover {
@@ -52,4 +53,35 @@
     color: #d14031;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+@media only screen and (max-width: 480px) {
+    .login-form {
+        padding: 7% 5%;
+        width: 100%;
+        margin: 0;
+        background-color: transparent;
+    }
+    
+    .login-heading {
+        margin-bottom: 4%;
+        font-size: 2rem;
+    }
+    
+    .sign-in {
+        padding: 2% 7%;
+        margin-top: 7%;
+    }
+    
+    .login-fields {
+        padding: 1%;
+    }
+    
+    .login-btn {
+        display: block;
+    }
+    
+    .login-buttons {
+        font-size: 1rem;
+    }
 }
