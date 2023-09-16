@@ -3,6 +3,7 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -23,7 +24,7 @@ function Header() {
             <h1 style={{ color: "#343434", textAlign: "center" }}>
                 BOOK <span style={{ color: "#d14031" }}>SHOP</span>
             </h1>
-            <FontAwesomeIcon icon={faUser} size="lg" className="icons-header" />
+            <Link to="/login" style={{color: "#000"}}><FontAwesomeIcon icon={faUser} size="lg" className="icons-header" /></Link>
         </div>
     );
 }

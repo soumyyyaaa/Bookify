@@ -24,6 +24,7 @@ import Wpbab from "./Pages/Blogs/Wpbab";
 import Bbfbl from "./Pages/Blogs/Bbfbl";
 import Information from "./Components/Footer/Information";
 import Search from "./Components/Footer/Search";
+import Login from "./Pages/Login/Login";
 
 export default function App() {
     return (
@@ -36,6 +37,7 @@ export default function App() {
                 <Route path="/brands" element={<Brands />} />
                 <Route path="/blogs" element={<Blogs />} />
                 <Route path="/faq" element={<Faq />} />
+                <Route path="/login" element={<Login />} />
                 <Route path="/contactus" element={<ContactUs />} />
                 <Route path="/blogs2" element={<Blogs2 />} />
                 <Route path="/aboutus" element={<AboutUs />} />

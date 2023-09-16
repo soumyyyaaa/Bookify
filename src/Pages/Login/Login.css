@@ -1,0 +1,55 @@
+.login-form {
+    padding: 5%;
+    width: 50%;
+    margin: 5% auto;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.login-heading {
+    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 4%;
+    font-size: 3.5rem;
+    font-weight: 0;
+}
+
+.sign-in {
+    border: none;
+    background-color: #d14031;
+    padding: 2% 5%;
+    color: #fff;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.sign-in:hover {
+    background-color: #000;
+    transition: 0.4s;
+}
+
+.login-fields {
+    width: 100%;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.login-fields:hover {
+    border: #000 2px solid;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-buttons {
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.1rem;
+}
+
+.login-buttons:hover {
+    color: #d14031;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
