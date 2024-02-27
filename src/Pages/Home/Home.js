@@ -13,10 +13,12 @@ import Container4Home from "./Container4Home";
 import Container8Home from "../Home/Container8Home";
 import Container10Home from "./Container10Home";
 import Container11Home from "./Container11Home";
+import PersistentText from "../PersistentText/PersistentText";
 
 function Home() {
     return (
         <div>
+            
             <div className="container1-home">
                 <div className="text-container-home">
                     <h3 className="year-end-sale">Year end sale</h3>

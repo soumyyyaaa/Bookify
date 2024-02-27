@@ -27,10 +27,12 @@ import Search from "./Components/Footer/Search";
 import Login from "./Pages/Login/Login";
 import ForgotYourPassword from "./Pages/ForgotYourPassword/ForgotYourPassword";
 import CreateYourAccount from "./Pages/CreateYourAccount/CreateYourAccount";
+import PersistentText from "./Pages/PersistentText/PersistentText";
 
 export default function App() {
     return (
         <BrowserRouter>
+            <PersistentText />
             <Header />
             <Navbars />
             <Routes>
