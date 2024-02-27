@@ -25,6 +25,8 @@ import Bbfbl from "./Pages/Blogs/Bbfbl";
 import Information from "./Components/Footer/Information";
 import Search from "./Components/Footer/Search";
 import Login from "./Pages/Login/Login";
+import ForgotYourPassword from "./Pages/ForgotYourPassword/ForgotYourPassword";
+import CreateYourAccount from "./Pages/CreateYourAccount/CreateYourAccount";
 
 export default function App() {
     return (
@@ -53,6 +55,14 @@ export default function App() {
                 <Route path="/search" element={<Search />} />
                 <Route path="/bestsellers" element={<BestSellers />} />
                 <Route path="/categoriespage2" element={<Categories2 />} />
+                <Route
+                    path="/createyouraccount"
+                    element={<CreateYourAccount />}
+                />
+                <Route
+                    path="/forgotyourpassword"
+                    element={<ForgotYourPassword />}
+                />
             </Routes>
             <Footer />
         </BrowserRouter>
