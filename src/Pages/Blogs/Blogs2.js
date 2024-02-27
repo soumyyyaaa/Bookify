@@ -23,15 +23,18 @@ function Blogs2() {
                 <Loader />
             ) : (
                 <>
-                    <div className="container1-blogs">
-                        <div className="opacity-container-blogs"></div>
-                        <h2 className="heading-blogs">News</h2>
+                    <div className="container-pages">
+                        <div className="opacity-container-pages"></div>
+                        <h2 className="heading-pages">News</h2>
                     </div>
                     <div className="container4-blogs">
                         <Link to="/wpbab" style={{ textDecoration: "none" }}>
                             <div className="container2-content">
                                 <img src={blogs7} alt="blogs 7" />
-                                <p style={{ margin: "3% 0" }}>
+                                <p
+                                    className="sans-serif-font"
+                                    style={{ margin: "3% 0", color: "#707070" }}
+                                >
                                     <FontAwesomeIcon icon={faCircleUser} />{" "}
                                     Ramamoorthi M |{" "}
                                     <FontAwesomeIcon icon={faCalendarDays} />{" "}
@@ -60,7 +63,10 @@ function Blogs2() {
                         <Link to="/bbfbl" style={{ textDecoration: "none" }}>
                             <div className="container2-content">
                                 <img src={blogs8} alt="blogs 8" />
-                                <p style={{ margin: "3% 0" }}>
+                                <p
+                                    className="sans-serif-font"
+                                    style={{ margin: "3% 0", color: "#707070" }}
+                                >
                                     <FontAwesomeIcon icon={faCircleUser} />{" "}
                                     Ramamoorthi M |{" "}
                                     <FontAwesomeIcon icon={faCalendarDays} />{" "}
