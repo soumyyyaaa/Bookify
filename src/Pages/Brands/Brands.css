@@ -12,7 +12,7 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
-    height: 343px;
+    height: 422px;
     padding: 0;
 }
 
@@ -35,6 +35,12 @@
     font-family: "Cormorant Garamond", serif;
     color: #000;
     margin-top: 8%;
+}
+
+@media only screen and (max-width: 1350px) {
+    .opacity-container1 {
+        height: 343px;
+    }
 }
 
 @media only screen and (max-width: 480px) {

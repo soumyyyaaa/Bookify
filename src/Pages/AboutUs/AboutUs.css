@@ -10,7 +10,7 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
-    height: 343px;
+    height: 424px;
     padding: 0;
 }
 
@@ -67,6 +67,12 @@
 
 .container5-aboutus {
     padding: 6% 4%;
+}
+
+@media only screen and (max-width: 1350px) {
+    .opacity-container-pages {
+        height: 343px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
