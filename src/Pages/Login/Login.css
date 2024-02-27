@@ -1,5 +1,5 @@
 .login-form {
-    padding: 5%;
+    padding: 3% 5%;
     width: 50%;
     margin: 5% auto;
     background-color: #f7f7f7;
@@ -9,7 +9,7 @@
 .login-heading {
     font-family: "Cormorant Garamond", serif;
     margin-bottom: 4%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 0;
 }
 
@@ -55,6 +55,10 @@
     background-clip: text;
 }
 
+.fyp-p {
+    font-family: "Josefin Sans", sans-serif;
+}
+
 @media only screen and (max-width: 480px) {
     .login-form {
         padding: 7% 5%;
@@ -62,25 +66,25 @@
         margin: 0;
         background-color: transparent;
     }
-    
+
     .login-heading {
         margin-bottom: 4%;
         font-size: 2rem;
     }
-    
+
     .sign-in {
         padding: 2% 7%;
         margin-top: 7%;
     }
-    
+
     .login-fields {
         padding: 1%;
     }
-    
+
     .login-btn {
         display: block;
     }
-    
+
     .login-buttons {
         font-size: 1rem;
     }

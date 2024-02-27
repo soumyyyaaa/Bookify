@@ -1,12 +1,9 @@
+import { Link } from "react-router-dom";
 import "../Login/Login.css";
 
 function Login() {
     return (
         <>
-            <div className="container-pages">
-                <div className="opacity-container-pages"></div>
-                <h2 className="heading-pages">Account</h2>
-            </div>
             <form className="login-form">
                 <h1 className="login-heading">Login</h1>
                 <input
@@ -24,8 +21,18 @@ function Login() {
                 <button className="sign-in">Sign In</button>
                 <hr />
                 <div className="login-btn">
-                    <p className="login-buttons">Forgot Your Password?</p>
-                    <p className="login-buttons">Create Account</p>
+                    <Link
+                        to="/forgotyourpassword"
+                        style={{ textDecoration: "none", color: "black" }}
+                    >
+                        <p className="login-buttons">Forgot Your Password?</p>
+                    </Link>
+                    <Link
+                        to="/createyouraccount"
+                        style={{ textDecoration: "none", color: "black" }}
+                    >
+                        <p className="login-buttons">Create Account</p>
+                    </Link>
                 </div>
             </form>
         </>
