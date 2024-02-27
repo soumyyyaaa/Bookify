@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import "./PersistentText.css";
 
 const PersistentText = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -12,23 +13,7 @@ const PersistentText = () => {
     return (
         <>
             {isVisible && (
-                <div
-                    style={{
-                        backgroundColor: "black",
-                        padding: "1%",
-                        position: "fixed",
-                        top: "0",
-                        left: "0",
-                        width: "100%",
-                        zIndex: "1",
-                        color: "white",
-                        textAlign: "center",
-                        fontFamily: "Josefin Sans",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-evenly",
-                    }}
-                >
+                <div style={{}} className="persistent-text-div">
                     <p style={{ margin: "0" }}>
                         FREE SHIPPING & RETURN - MONEY BACK GUARANTEE - ONLINE
                         SUPPORT 24/7

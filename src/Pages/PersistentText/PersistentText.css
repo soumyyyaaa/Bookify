@@ -1,0 +1,15 @@
+.persistent-text-div {
+    background-color: #000;
+    padding: 1% 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans";
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
